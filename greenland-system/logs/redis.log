@@ -1,0 +1,399 @@
+[INFO] 2020-12-14 21:16:37.522  com.elltor.greenlandsystem.ConnectDataBaseTest.java - Starting ConnectDataBaseTest on LAPTOP-GQ45MDEJ with PID 17476 (started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-14 21:16:37.535  com.elltor.greenlandsystem.ConnectDataBaseTest.java - The following profiles are active: dev
+[INFO] 2020-12-14 21:16:39.050  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a6c5fcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-14 21:16:40.249  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 0 (http)
+[INFO] 2020-12-14 21:16:40.267  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO] 2020-12-14 21:16:40.276  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-14 21:16:40.276  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-14 21:16:40.288  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-14 21:16:40.670  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-14 21:16:40.680  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-14 21:16:40.680  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 3087 ms
+[INFO] 2020-12-14 21:16:40.883  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-14 21:16:40.885  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-14 21:16:40.885  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-14 21:16:40.885  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-14 21:16:40.885  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean.java - Mapping filter: 'springSecurityFilterChain' to: [/*]
+[INFO] 2020-12-14 21:16:40.887  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-14 21:16:40.887  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-14 21:16:40.888  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-14 21:16:41.121  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-14 21:16:41.585  log4jdbc.log4j2.java - 1. Connection opened. {executed in 238ms} 
+[INFO] 2020-12-14 21:16:41.586  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-14 21:16:41.588  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.588  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:16:41.590  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-14 21:16:41.590  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@59bbe88a
+[INFO] 2020-12-14 21:16:41.593  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.599  log4jdbc.log4j2.java - 1. select 1  {executed in 2 ms}
+[INFO] 2020-12-14 21:16:41.606  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:16:41.606  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4b039c6d
+[INFO] 2020-12-14 21:16:41.610  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-14 21:16:41.611  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:16:41.612  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-14 21:16:41.612  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-14 21:16:41.613  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.613  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:16:41.614  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:16:41.615  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:16:41.623  log4jdbc.log4j2.java - 2. Connection opened. {executed in 7ms} 
+[INFO] 2020-12-14 21:16:41.623  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-14 21:16:41.624  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.624  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:16:41.624  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-14 21:16:41.624  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@fd53053
+[INFO] 2020-12-14 21:16:41.624  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.625  log4jdbc.log4j2.java - 2. select 1  {executed in 1 ms}
+[INFO] 2020-12-14 21:16:41.626  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:16:41.626  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4527f70a
+[INFO] 2020-12-14 21:16:41.626  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-14 21:16:41.626  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:16:41.627  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-14 21:16:41.627  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-14 21:16:41.627  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.627  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:16:41.629  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:16:41.632  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:16:41.986  log4jdbc.log4j2.java - 3. Connection opened. {executed in 353ms} 
+[INFO] 2020-12-14 21:16:41.987  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-14 21:16:41.988  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.989  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:16:41.990  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-14 21:16:41.991  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@61bfc9bf
+[INFO] 2020-12-14 21:16:41.992  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:41.996  log4jdbc.log4j2.java - 3. select 1  {executed in 3 ms}
+[INFO] 2020-12-14 21:16:41.997  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:16:41.998  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2c7106d9
+[INFO] 2020-12-14 21:16:41.999  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-14 21:16:42.001  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:16:42.003  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-14 21:16:42.003  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-14 21:16:42.003  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.004  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:16:42.007  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:16:42.013  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:16:42.038  log4jdbc.log4j2.java - 4. Connection opened. {executed in 24ms} 
+[INFO] 2020-12-14 21:16:42.039  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-14 21:16:42.041  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.042  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:16:42.042  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-14 21:16:42.043  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@432f521f
+[INFO] 2020-12-14 21:16:42.044  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.047  log4jdbc.log4j2.java - 4. select 1  {executed in 2 ms}
+[INFO] 2020-12-14 21:16:42.048  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:16:42.048  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2d7a9786
+[INFO] 2020-12-14 21:16:42.050  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-14 21:16:42.051  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:16:42.052  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-14 21:16:42.053  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-14 21:16:42.053  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.054  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:16:42.058  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:16:42.063  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:16:42.090  log4jdbc.log4j2.java - 5. Connection opened. {executed in 24ms} 
+[INFO] 2020-12-14 21:16:42.091  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-14 21:16:42.092  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.093  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:16:42.094  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-14 21:16:42.094  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@5e0ec41f
+[INFO] 2020-12-14 21:16:42.095  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.098  log4jdbc.log4j2.java - 5. select 1  {executed in 2 ms}
+[INFO] 2020-12-14 21:16:42.099  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:16:42.100  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@f4a3a8d
+[INFO] 2020-12-14 21:16:42.101  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-14 21:16:42.102  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:16:42.103  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-14 21:16:42.104  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-14 21:16:42.105  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:16:42.106  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:16:42.109  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:16:42.113  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:16:42.123  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-14 21:16:44.863  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-14 21:16:45.873  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration.java - 
+
+Using generated security password: ef6c5f09-7f25-4111-8cb8-2b4f562d9712
+
+[INFO] 2020-12-14 21:16:46.127  org.springframework.security.web.DefaultSecurityFilterChain.java - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f5297e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f09e6b2, org.springframework.security.web.header.HeaderWriterFilter@33e3bd2e, org.springframework.security.web.csrf.CsrfFilter@4c4c7d6c, org.springframework.security.web.authentication.logout.LogoutFilter@77324a58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e958f08, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4409cae6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d22d3b1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ea71fc2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16e1219f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25a5c8e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ec3a8bd, org.springframework.security.web.session.SessionManagementFilter@30508066, org.springframework.security.web.access.ExceptionTranslationFilter@72c4a3aa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@342beaf6]
+[INFO] 2020-12-14 21:16:46.315  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO] 2020-12-14 21:16:46.329  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-14 21:16:46.366  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 63791 (http) with context path ''
+[INFO] 2020-12-14 21:16:46.371  com.elltor.greenlandsystem.ConnectDataBaseTest.java - Started ConnectDataBaseTest in 9.566 seconds (JVM running for 10.823)
+[INFO] 2020-12-14 21:16:46.837  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-14 21:16:46.839  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closing ...
+[INFO] 2020-12-14 21:16:46.846  log4jdbc.log4j2.java - 1. Connection closed. {executed in 4ms} 
+[INFO] 2020-12-14 21:16:46.846  log4jdbc.log4j2.java - 1. Connection.close() returned 
+[INFO] 2020-12-14 21:16:46.847  log4jdbc.log4j2.java - 2. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-14 21:16:46.847  log4jdbc.log4j2.java - 2. Connection.close() returned 
+[INFO] 2020-12-14 21:16:46.848  log4jdbc.log4j2.java - 3. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-14 21:16:46.849  log4jdbc.log4j2.java - 3. Connection.close() returned 
+[INFO] 2020-12-14 21:16:46.850  log4jdbc.log4j2.java - 4. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-14 21:16:46.850  log4jdbc.log4j2.java - 4. Connection.close() returned 
+[INFO] 2020-12-14 21:16:46.852  log4jdbc.log4j2.java - 5. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-14 21:16:46.852  log4jdbc.log4j2.java - 5. Connection.close() returned 
+[INFO] 2020-12-14 21:16:46.853  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closed
+[INFO] 2020-12-14 21:18:57.756  com.elltor.greenlandsystem.ConnectDataBaseTest.java - Starting ConnectDataBaseTest on LAPTOP-GQ45MDEJ with PID 7780 (started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-14 21:18:57.757  com.elltor.greenlandsystem.ConnectDataBaseTest.java - The following profiles are active: dev
+[INFO] 2020-12-14 21:18:59.349  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e5dfaf44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-14 21:19:01.400  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 0 (http)
+[INFO] 2020-12-14 21:19:01.414  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-auto-1"]
+[INFO] 2020-12-14 21:19:01.426  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-14 21:19:01.426  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-14 21:19:01.437  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-14 21:19:01.809  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-14 21:19:01.818  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-14 21:19:01.819  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 4031 ms
+[INFO] 2020-12-14 21:19:02.022  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-14 21:19:02.023  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-14 21:19:02.023  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-14 21:19:02.023  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-14 21:19:02.024  org.springframework.boot.web.servlet.DelegatingFilterProxyRegistrationBean.java - Mapping filter: 'springSecurityFilterChain' to: [/*]
+[INFO] 2020-12-14 21:19:02.024  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-14 21:19:02.025  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-14 21:19:02.026  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-14 21:19:02.209  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-14 21:19:02.675  log4jdbc.log4j2.java - 1. Connection opened. {executed in 218ms} 
+[INFO] 2020-12-14 21:19:02.676  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-14 21:19:02.678  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:02.678  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:02.680  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-14 21:19:02.681  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7f93dd4e
+[INFO] 2020-12-14 21:19:02.683  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:02.688  log4jdbc.log4j2.java - 1. select 1  {executed in 2 ms}
+[INFO] 2020-12-14 21:19:02.693  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:19:02.694  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@529c2a9a
+[INFO] 2020-12-14 21:19:02.697  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:02.698  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:19:02.699  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-14 21:19:02.699  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-14 21:19:02.699  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:02.700  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:19:02.701  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:19:02.702  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:19:02.711  log4jdbc.log4j2.java - 2. Connection opened. {executed in 9ms} 
+[INFO] 2020-12-14 21:19:02.711  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-14 21:19:02.711  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:02.712  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:02.712  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-14 21:19:02.712  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@4b039c6d
+[INFO] 2020-12-14 21:19:02.712  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:02.713  log4jdbc.log4j2.java - 2. select 1  {executed in 1 ms}
+[INFO] 2020-12-14 21:19:02.713  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:19:02.713  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7f5b9db
+[INFO] 2020-12-14 21:19:02.714  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:02.714  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:19:02.714  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-14 21:19:02.714  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-14 21:19:02.715  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:02.715  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:19:02.716  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:19:02.717  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:19:03.066  log4jdbc.log4j2.java - 3. Connection opened. {executed in 349ms} 
+[INFO] 2020-12-14 21:19:03.067  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-14 21:19:03.067  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.067  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:03.067  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-14 21:19:03.067  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@640ab13c
+[INFO] 2020-12-14 21:19:03.068  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.068  log4jdbc.log4j2.java - 3. select 1  {executed in 0 ms}
+[INFO] 2020-12-14 21:19:03.069  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:19:03.069  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1e0a864d
+[INFO] 2020-12-14 21:19:03.069  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:03.070  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:19:03.070  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-14 21:19:03.070  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-14 21:19:03.070  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.070  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:19:03.072  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:19:03.073  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:19:03.090  log4jdbc.log4j2.java - 4. Connection opened. {executed in 16ms} 
+[INFO] 2020-12-14 21:19:03.090  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-14 21:19:03.090  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.090  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:03.090  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-14 21:19:03.091  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7132a9dc
+[INFO] 2020-12-14 21:19:03.091  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.092  log4jdbc.log4j2.java - 4. select 1  {executed in 1 ms}
+[INFO] 2020-12-14 21:19:03.092  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:19:03.092  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@57435801
+[INFO] 2020-12-14 21:19:03.093  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:03.093  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:19:03.093  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-14 21:19:03.093  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-14 21:19:03.094  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.094  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:19:03.095  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:19:03.096  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:19:03.104  log4jdbc.log4j2.java - 5. Connection opened. {executed in 8ms} 
+[INFO] 2020-12-14 21:19:03.104  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-14 21:19:03.104  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.104  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:03.104  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-14 21:19:03.104  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@178f268a
+[INFO] 2020-12-14 21:19:03.105  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.106  log4jdbc.log4j2.java - 5. select 1  {executed in 1 ms}
+[INFO] 2020-12-14 21:19:03.106  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:19:03.106  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@33ecbd6c
+[INFO] 2020-12-14 21:19:03.106  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:03.106  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-14 21:19:03.107  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-14 21:19:03.107  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-14 21:19:03.107  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:03.107  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-14 21:19:03.108  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-14 21:19:03.109  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-14 21:19:03.111  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-14 21:19:05.603  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-14 21:19:06.559  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration.java - 
+
+Using generated security password: 44b07890-bb87-4bec-a138-5adb55719946
+
+[INFO] 2020-12-14 21:19:06.804  org.springframework.security.web.DefaultSecurityFilterChain.java - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2abc55c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@289f15e9, org.springframework.security.web.header.HeaderWriterFilter@20cff21e, org.springframework.security.web.csrf.CsrfFilter@ca7e37f, org.springframework.security.web.authentication.logout.LogoutFilter@34f7b44f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56a05324, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16e1219f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4e958f08, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ca3648, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6af87130, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27e44e9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71c0b742, org.springframework.security.web.session.SessionManagementFilter@27ab206, org.springframework.security.web.access.ExceptionTranslationFilter@1ecf0ac6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bf2d6eb]
+[INFO] 2020-12-14 21:19:06.948  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-auto-1"]
+[INFO] 2020-12-14 21:19:06.961  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-14 21:19:06.991  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 63834 (http) with context path ''
+[INFO] 2020-12-14 21:19:06.995  com.elltor.greenlandsystem.ConnectDataBaseTest.java - Started ConnectDataBaseTest in 9.867 seconds (JVM running for 10.933)
+[INFO] 2020-12-14 21:19:07.255  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:07.255  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:07.257  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-14 21:19:07.269  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-14 21:19:07.270  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6e2eead5
+[INFO] 2020-12-14 21:19:07.273  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:07.274  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-14 21:19:07.275  log4jdbc.log4j2.java - 5. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee  {executed in 1 ms}
+[INFO] 2020-12-14 21:19:07.275  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-14 21:19:07.276  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-14 21:19:07.276  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6fd1ea75
+[INFO] 2020-12-14 21:19:07.464  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@25d911a - Field level information: 
+	com.mysql.jdbc.Field@18026052[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@489f62a3[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@6e068ac9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@3d0352[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@bb6f3f7[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@388f1258[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@62058742[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@aca2fc3[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@36df4c26[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@76828577[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@38732372[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@639cb788[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-14 21:19:07.467  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-14 21:19:07.467  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:07.472  log4jdbc.log4j2.java - 5. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-14 21:19:07.473  log4jdbc.log4j2.java - 5. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-14 21:19:07.473  log4jdbc.log4j2.java - 5. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-14 21:19:07.473  log4jdbc.log4j2.java - 5. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-14 21:19:07.473  log4jdbc.log4j2.java - 5. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-14 21:19:07.474  log4jdbc.log4j2.java - 5. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-14 21:19:07.474  log4jdbc.log4j2.java - 5. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-14 21:19:07.474  log4jdbc.log4j2.java - 5. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-14 21:19:07.474  log4jdbc.log4j2.java - 5. ResultSet.getString(password) returned e10adc3949ba59abbe56e057f20f883e
+[INFO] 2020-12-14 21:19:07.474  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-14 21:19:07.474  log4jdbc.log4j2.java - 5. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.getString(pic) returned void
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-14 21:19:07.475  log4jdbc.log4j2.java - 5. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getString(password) returned e10adc3949ba59abbe56e057f20f883e
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-14 21:19:07.476  log4jdbc.log4j2.java - 5. ResultSet.getString(pic) returned void
+[INFO] 2020-12-14 21:19:07.477  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-14 21:19:07.477  log4jdbc.log4j2.java - 5. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-14 21:19:07.477  log4jdbc.log4j2.java - 5. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-14 21:19:07.477  log4jdbc.log4j2.java - 5. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-14 21:19:07.477  log4jdbc.log4j2.java - 5. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-14 21:19:07.478  log4jdbc.log4j2.java - 5. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-14 21:19:07.478  log4jdbc.log4j2.java - 5. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-14 21:19:07.478  log4jdbc.log4j2.java - 5. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-14 21:19:07.478  log4jdbc.log4j2.java - 5. ResultSet.getString(username) returned xb
+[INFO] 2020-12-14 21:19:07.478  log4jdbc.log4j2.java - 5. ResultSet.getString(password) returned e10adc3949ba59abbe56e057f20f883e
+[INFO] 2020-12-14 21:19:07.478  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-14 21:19:07.479  log4jdbc.log4j2.java - 5. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-14 21:19:07.479  log4jdbc.log4j2.java - 5. ResultSet.getString(pic) returned void
+[INFO] 2020-12-14 21:19:07.480  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|---------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                         |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|---------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |e10adc3949ba59abbe56e057f20f883e |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |e10adc3949ba59abbe56e057f20f883e |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |e10adc3949ba59abbe56e057f20f883e |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|---------------------------------|-------------|----|----|
+
+[INFO] 2020-12-14 21:19:07.481  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-14 21:19:07.481  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-14 21:19:07.481  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@734fbae3
+[INFO] 2020-12-14 21:19:07.482  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-14 21:19:07.482  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-14 21:19:07.482  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-14 21:19:07.483  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-14 21:19:07.484  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-14 21:19:07.513  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-14 21:19:07.514  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closing ...
+[INFO] 2020-12-14 21:19:07.521  log4jdbc.log4j2.java - 1. Connection closed. {executed in 4ms} 
+[INFO] 2020-12-14 21:19:07.521  log4jdbc.log4j2.java - 1. Connection.close() returned 
+[INFO] 2020-12-14 21:19:07.522  log4jdbc.log4j2.java - 2. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-14 21:19:07.523  log4jdbc.log4j2.java - 2. Connection.close() returned 
+[INFO] 2020-12-14 21:19:07.523  log4jdbc.log4j2.java - 3. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-14 21:19:07.524  log4jdbc.log4j2.java - 3. Connection.close() returned 
+[INFO] 2020-12-14 21:19:07.525  log4jdbc.log4j2.java - 4. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-14 21:19:07.525  log4jdbc.log4j2.java - 4. Connection.close() returned 
+[INFO] 2020-12-14 21:19:07.525  log4jdbc.log4j2.java - 5. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-14 21:19:07.526  log4jdbc.log4j2.java - 5. Connection.close() returned 
+[INFO] 2020-12-14 21:19:07.527  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closed
