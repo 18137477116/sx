@@ -1,0 +1,1156 @@
+[INFO] 2020-12-15 17:40:35.701  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 21684 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:40:35.706  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:40:36.432  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$827beb0a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:40:36.641  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:40:36.650  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:40:36.653  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:40:36.653  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:40:36.658  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:40:36.845  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:40:36.848  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:40:36.849  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 1063 ms
+[INFO] 2020-12-15 17:40:36.887  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:40:36.888  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:40:36.890  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:40:36.890  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:40:36.891  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:40:36.891  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:40:36.891  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:40:37.026  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:40:37.583  log4jdbc.log4j2.java - 1. Connection opened. {executed in 450ms} 
+[INFO] 2020-12-15 17:40:37.583  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:40:37.584  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.584  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:40:37.585  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:40:37.585  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@4fad6218
+[INFO] 2020-12-15 17:40:37.587  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.590  log4jdbc.log4j2.java - 1. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:40:37.592  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:40:37.592  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7c29adc8
+[INFO] 2020-12-15 17:40:37.594  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:40:37.595  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:40:37.595  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:40:37.595  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:40:37.595  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.596  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:40:37.596  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:40:37.597  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:40:37.602  log4jdbc.log4j2.java - 2. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-15 17:40:37.603  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:40:37.603  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.603  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:40:37.603  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:40:37.603  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@eb507b9
+[INFO] 2020-12-15 17:40:37.603  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 2. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@390877d2
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:40:37.604  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:40:37.605  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.605  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:40:37.605  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:40:37.606  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:40:37.625  log4jdbc.log4j2.java - 3. Connection opened. {executed in 19ms} 
+[INFO] 2020-12-15 17:40:37.625  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:40:37.626  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.626  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:40:37.626  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:40:37.626  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7aa9e414
+[INFO] 2020-12-15 17:40:37.626  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.627  log4jdbc.log4j2.java - 3. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:40:37.627  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:40:37.627  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@53a5e217
+[INFO] 2020-12-15 17:40:37.627  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:40:37.628  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:40:37.628  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:40:37.628  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:40:37.628  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.628  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:40:37.629  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:40:37.629  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:40:37.635  log4jdbc.log4j2.java - 4. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-15 17:40:37.636  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:40:37.636  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.636  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:40:37.636  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:40:37.636  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7afbf561
+[INFO] 2020-12-15 17:40:37.636  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 4. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2f98635e
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:40:37.637  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:40:37.638  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.638  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:40:37.638  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:40:37.639  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:40:37.643  log4jdbc.log4j2.java - 5. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:40:37.643  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:40:37.643  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.643  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:40:37.644  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:40:37.644  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@2416498e
+[INFO] 2020-12-15 17:40:37.644  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.644  log4jdbc.log4j2.java - 5. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:40:37.644  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:40:37.644  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6b2e0f78
+[INFO] 2020-12-15 17:40:37.645  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:40:37.645  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:40:37.645  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:40:37.645  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:40:37.645  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:40:37.645  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:40:37.646  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:40:37.646  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:40:37.648  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:40:38.812  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:40:38.891  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:40:39.171  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:40:39.178  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:40:39.194  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:40:39.196  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 4.012 seconds (JVM running for 5.06)
+[INFO] 2020-12-15 17:40:43.468  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:40:43.468  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:40:43.473  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 5 ms
+[INFO] 2020-12-15 17:43:48.719  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 8560 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:43:48.721  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:43:49.366  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d237ae90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:43:49.565  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:43:49.573  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:43:49.577  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:43:49.577  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:43:49.582  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:43:49.761  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:43:49.764  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:43:49.764  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 974 ms
+[INFO] 2020-12-15 17:43:49.797  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:43:49.798  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:43:49.800  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:43:49.800  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:43:49.800  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:43:49.800  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:43:49.801  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:43:49.932  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:43:50.136  log4jdbc.log4j2.java - 1. Connection opened. {executed in 101ms} 
+[INFO] 2020-12-15 17:43:50.137  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:43:50.138  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.138  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:43:50.139  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:43:50.139  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@cb03411
+[INFO] 2020-12-15 17:43:50.140  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.143  log4jdbc.log4j2.java - 1. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:43:50.145  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:43:50.145  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@62891fc8
+[INFO] 2020-12-15 17:43:50.147  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:43:50.148  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:43:50.148  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:43:50.148  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:43:50.148  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.148  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:43:50.149  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:43:50.150  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:43:50.154  log4jdbc.log4j2.java - 2. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:43:50.154  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:43:50.154  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.155  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:43:50.155  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:43:50.155  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@36ddaebf
+[INFO] 2020-12-15 17:43:50.155  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.155  log4jdbc.log4j2.java - 2. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:43:50.155  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@213c3543
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.156  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:43:50.157  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:43:50.157  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:43:50.161  log4jdbc.log4j2.java - 3. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:43:50.161  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:43:50.161  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.161  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:43:50.161  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:43:50.162  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@4bbb49b0
+[INFO] 2020-12-15 17:43:50.162  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.162  log4jdbc.log4j2.java - 3. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:43:50.162  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:43:50.162  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@f096f37
+[INFO] 2020-12-15 17:43:50.163  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:43:50.163  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:43:50.163  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:43:50.163  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:43:50.163  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.163  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:43:50.164  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:43:50.164  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@6f4ade6e
+[INFO] 2020-12-15 17:43:50.168  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@39e43310
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.169  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:43:50.170  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:43:50.170  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:43:50.174  log4jdbc.log4j2.java - 5. Connection opened. {executed in 3ms} 
+[INFO] 2020-12-15 17:43:50.174  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:43:50.174  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.174  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:43:50.174  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:43:50.174  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7fc7c4a
+[INFO] 2020-12-15 17:43:50.175  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.175  log4jdbc.log4j2.java - 5. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:43:50.175  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:43:50.175  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7aa9e414
+[INFO] 2020-12-15 17:43:50.175  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:43:50.175  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:43:50.176  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:43:50.176  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:43:50.176  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:43:50.176  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:43:50.176  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:43:50.177  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:43:50.178  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:43:51.309  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:43:51.386  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:43:51.667  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:43:51.674  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:43:51.690  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:43:51.692  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 3.443 seconds (JVM running for 4.472)
+[INFO] 2020-12-15 17:43:55.414  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:43:55.414  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:43:55.420  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 6 ms
+[INFO] 2020-12-15 17:44:21.575  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 19524 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:44:21.581  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:44:22.462  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a640de6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:44:22.677  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:44:22.688  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:44:22.692  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:44:22.693  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:44:22.698  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:44:22.873  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:44:22.876  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:44:22.877  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 1173 ms
+[INFO] 2020-12-15 17:44:22.915  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:44:22.916  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:44:22.918  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:44:22.919  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:44:22.919  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:44:22.919  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:44:22.919  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:44:23.057  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:44:23.259  log4jdbc.log4j2.java - 1. Connection opened. {executed in 101ms} 
+[INFO] 2020-12-15 17:44:23.259  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:44:23.260  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.260  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:44:23.261  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:44:23.261  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@62891fc8
+[INFO] 2020-12-15 17:44:23.264  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.267  log4jdbc.log4j2.java - 1. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:44:23.268  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:44:23.268  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@514cd540
+[INFO] 2020-12-15 17:44:23.270  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:44:23.270  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:44:23.270  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:44:23.270  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:44:23.271  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.272  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:44:23.273  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:44:23.273  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:44:23.277  log4jdbc.log4j2.java - 2. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:44:23.277  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:44:23.277  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7aa9e414
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:44:23.278  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@53a5e217
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:44:23.279  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:44:23.280  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@7afbf561
+[INFO] 2020-12-15 17:44:23.284  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2f98635e
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:44:23.285  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.286  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:44:23.286  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:44:23.286  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:44:23.290  log4jdbc.log4j2.java - 4. Connection opened. {executed in 3ms} 
+[INFO] 2020-12-15 17:44:23.290  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:44:23.290  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.290  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:44:23.290  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:44:23.291  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@771cbb1a
+[INFO] 2020-12-15 17:44:23.291  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.291  log4jdbc.log4j2.java - 4. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:44:23.291  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:44:23.291  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2416498e
+[INFO] 2020-12-15 17:44:23.291  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:44:23.292  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:44:23.292  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:44:23.292  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:44:23.292  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.292  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:44:23.292  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:44:23.293  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@1c758545
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.297  log4jdbc.log4j2.java - 5. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@117bcfdc
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:44:23.298  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:44:23.299  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:44:23.299  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:44:23.300  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:44:24.422  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:44:24.496  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:44:24.780  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:44:24.789  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:44:24.804  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:44:24.806  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 3.751 seconds (JVM running for 4.753)
+[INFO] 2020-12-15 17:44:26.076  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:44:26.077  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:44:26.081  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 4 ms
+[INFO] 2020-12-15 17:47:58.806  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 17784 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:47:58.808  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:47:59.524  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b19dada] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:47:59.725  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:47:59.735  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:47:59.739  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:47:59.740  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:47:59.745  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:47:59.931  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:47:59.934  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:47:59.934  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 1045 ms
+[INFO] 2020-12-15 17:47:59.972  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:47:59.973  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:47:59.976  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:47:59.976  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:47:59.976  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:47:59.976  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:47:59.976  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:48:00.118  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:48:00.333  log4jdbc.log4j2.java - 1. Connection opened. {executed in 107ms} 
+[INFO] 2020-12-15 17:48:00.333  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:48:00.334  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.334  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:48:00.335  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:48:00.336  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@1ac45389
+[INFO] 2020-12-15 17:48:00.337  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.340  log4jdbc.log4j2.java - 1. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:48:00.342  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:48:00.343  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@f096f37
+[INFO] 2020-12-15 17:48:00.344  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:48:00.345  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:48:00.345  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:48:00.345  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:48:00.346  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.346  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:48:00.347  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:48:00.348  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@186cb891
+[INFO] 2020-12-15 17:48:00.353  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.354  log4jdbc.log4j2.java - 2. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:48:00.354  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:48:00.354  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3ec2ecea
+[INFO] 2020-12-15 17:48:00.354  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:48:00.355  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:48:00.355  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:48:00.355  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:48:00.355  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.355  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:48:00.355  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:48:00.356  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:48:00.360  log4jdbc.log4j2.java - 3. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:48:00.360  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:48:00.360  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.360  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:48:00.360  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:48:00.361  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@6b00ad9
+[INFO] 2020-12-15 17:48:00.361  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.361  log4jdbc.log4j2.java - 3. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:48:00.361  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:48:00.361  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@338cc75f
+[INFO] 2020-12-15 17:48:00.361  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:48:00.362  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:48:00.362  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:48:00.362  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:48:00.362  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.362  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:48:00.362  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:48:00.363  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:48:00.366  log4jdbc.log4j2.java - 4. Connection opened. {executed in 3ms} 
+[INFO] 2020-12-15 17:48:00.366  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:48:00.366  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.366  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@6b0615ae
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4e73b552
+[INFO] 2020-12-15 17:48:00.367  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:48:00.368  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:48:00.368  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:48:00.368  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:48:00.368  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.368  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:48:00.368  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:48:00.369  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3659d7b1
+[INFO] 2020-12-15 17:48:00.373  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2015b2cd
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:48:00.374  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:48:00.375  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:48:00.375  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:48:00.377  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:48:01.525  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:48:01.601  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:48:01.869  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:48:01.876  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:48:01.895  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:48:01.898  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 3.56 seconds (JVM running for 4.623)
+[INFO] 2020-12-15 17:48:02.989  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:48:02.989  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:48:02.995  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 6 ms
+[WARN] 2020-12-15 17:48:03.353  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/font-awesome.min93e3.css
+[WARN] 2020-12-15 17:48:03.354  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/bootstrap.min14ed.css
+[WARN] 2020-12-15 17:48:03.354  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/animate.min.css
+[WARN] 2020-12-15 17:48:03.355  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/customer.css
+[WARN] 2020-12-15 17:48:03.355  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/style.min862f.css
+[WARN] 2020-12-15 17:48:03.393  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/profile_small.jpg
+[WARN] 2020-12-15 17:48:03.436  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/jquery.min.js
+[WARN] 2020-12-15 17:48:03.438  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:48:03.438  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:48:03.440  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/bootstrap.min.js
+[WARN] 2020-12-15 17:48:03.440  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:48:03.445  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:48:03.451  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a7.jpg
+[WARN] 2020-12-15 17:48:03.453  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a4.jpg
+[WARN] 2020-12-15 17:48:03.459  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:48:03.459  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:48:03.461  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a1.jpg
+[WARN] 2020-12-15 17:48:03.464  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:48:03.473  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a2.jpg
+[WARN] 2020-12-15 17:48:03.474  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a3.jpg
+[WARN] 2020-12-15 17:48:03.476  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a8.jpg
+[WARN] 2020-12-15 17:48:03.490  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:48:03.508  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:48:03.514  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:48:03.520  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:48:04.350  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/bootstrap.min14ed.css
+[WARN] 2020-12-15 17:48:04.357  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/font-awesome.min93e3.css
+[WARN] 2020-12-15 17:48:04.357  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/animate.min.css
+[WARN] 2020-12-15 17:48:04.358  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/customer.css
+[WARN] 2020-12-15 17:48:04.358  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/style.min862f.css
+[WARN] 2020-12-15 17:48:04.402  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/profile_small.jpg
+[WARN] 2020-12-15 17:48:04.406  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a7.jpg
+[WARN] 2020-12-15 17:48:04.407  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a1.jpg
+[WARN] 2020-12-15 17:48:04.406  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a4.jpg
+[WARN] 2020-12-15 17:48:04.407  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a2.jpg
+[WARN] 2020-12-15 17:48:04.410  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a3.jpg
+[WARN] 2020-12-15 17:48:04.422  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/jquery.min.js
+[WARN] 2020-12-15 17:48:04.428  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/bootstrap.min.js
+[WARN] 2020-12-15 17:48:04.430  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:48:04.430  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:48:04.430  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:48:04.431  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:48:04.440  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:48:04.443  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:48:04.448  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a8.jpg
+[WARN] 2020-12-15 17:48:04.457  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:48:04.477  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:48:04.483  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:48:04.489  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:48:04.495  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:48:05.773  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/bootstrap.min14ed.css
+[WARN] 2020-12-15 17:48:05.775  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/font-awesome.min93e3.css
+[WARN] 2020-12-15 17:48:05.775  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/animate.min.css
+[WARN] 2020-12-15 17:48:05.777  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/customer.css
+[WARN] 2020-12-15 17:48:05.777  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/style.min862f.css
+[WARN] 2020-12-15 17:48:05.818  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/profile_small.jpg
+[WARN] 2020-12-15 17:48:05.823  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a7.jpg
+[WARN] 2020-12-15 17:48:05.823  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a4.jpg
+[WARN] 2020-12-15 17:48:05.823  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a1.jpg
+[WARN] 2020-12-15 17:48:05.825  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a2.jpg
+[WARN] 2020-12-15 17:48:05.827  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a3.jpg
+[WARN] 2020-12-15 17:48:05.838  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/jquery.min.js
+[WARN] 2020-12-15 17:48:05.841  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/bootstrap.min.js
+[WARN] 2020-12-15 17:48:05.846  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:48:05.846  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:48:05.846  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:48:05.847  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:48:05.851  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:48:05.857  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:48:05.862  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a8.jpg
+[WARN] 2020-12-15 17:48:05.877  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:48:05.893  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:48:05.900  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:48:05.905  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[INFO] 2020-12-15 17:53:27.164  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 28224 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:53:27.169  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:53:27.902  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c4a5f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:53:28.101  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:53:28.109  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:53:28.112  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:53:28.112  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:53:28.117  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:53:28.296  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:53:28.299  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:53:28.299  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 1038 ms
+[INFO] 2020-12-15 17:53:28.331  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:53:28.332  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:53:28.334  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:53:28.334  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:53:28.334  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:53:28.334  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:53:28.334  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:53:28.467  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:53:28.684  log4jdbc.log4j2.java - 1. Connection opened. {executed in 110ms} 
+[INFO] 2020-12-15 17:53:28.685  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:53:28.686  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.686  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:53:28.687  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:53:28.688  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@4b2e3e8f
+[INFO] 2020-12-15 17:53:28.689  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.692  log4jdbc.log4j2.java - 1. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:53:28.694  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:53:28.695  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7c9bdee9
+[INFO] 2020-12-15 17:53:28.696  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:53:28.697  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:53:28.697  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:53:28.697  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:53:28.698  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.698  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:53:28.699  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:53:28.699  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@240f6c41
+[INFO] 2020-12-15 17:53:28.705  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.706  log4jdbc.log4j2.java - 2. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:53:28.706  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:53:28.706  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3659d7b1
+[INFO] 2020-12-15 17:53:28.706  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:53:28.707  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:53:28.707  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:53:28.707  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:53:28.707  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.707  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:53:28.708  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:53:28.708  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:53:28.712  log4jdbc.log4j2.java - 3. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:53:28.713  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:53:28.713  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.713  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:53:28.713  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:53:28.713  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@73a19967
+[INFO] 2020-12-15 17:53:28.713  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5e746d37
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.714  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:53:28.715  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:53:28.716  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3d49fd31
+[INFO] 2020-12-15 17:53:28.720  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 4. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4016ccc1
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:53:28.721  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:53:28.722  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.722  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:53:28.722  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:53:28.723  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:53:28.726  log4jdbc.log4j2.java - 5. Connection opened. {executed in 3ms} 
+[INFO] 2020-12-15 17:53:28.727  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:53:28.727  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.727  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:53:28.727  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:53:28.727  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@451882b2
+[INFO] 2020-12-15 17:53:28.727  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4a23350
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:53:28.728  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:53:28.729  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:53:28.729  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:53:28.731  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:53:29.873  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:53:29.951  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:53:30.220  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:53:30.227  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:53:30.242  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:53:30.244  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 3.562 seconds (JVM running for 4.527)
+[INFO] 2020-12-15 17:53:34.594  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:53:34.594  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:53:34.598  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 4 ms
+[WARN] 2020-12-15 17:53:34.954  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/animate.min.css
+[WARN] 2020-12-15 17:53:34.954  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/bootstrap.min14ed.css
+[WARN] 2020-12-15 17:53:34.954  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/font-awesome.min93e3.css
+[WARN] 2020-12-15 17:53:34.955  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/customer.css
+[WARN] 2020-12-15 17:53:34.956  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/style.min862f.css
+[WARN] 2020-12-15 17:53:35.043  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/jquery.min.js
+[WARN] 2020-12-15 17:53:35.046  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/bootstrap.min.js
+[WARN] 2020-12-15 17:53:35.047  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:53:35.049  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:53:35.049  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:53:35.049  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:53:35.059  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:53:35.061  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a4.jpg
+[WARN] 2020-12-15 17:53:35.063  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a7.jpg
+[WARN] 2020-12-15 17:53:35.064  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/profile_small.jpg
+[WARN] 2020-12-15 17:53:35.074  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:53:35.076  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:53:35.078  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a1.jpg
+[WARN] 2020-12-15 17:53:35.080  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a2.jpg
+[WARN] 2020-12-15 17:53:35.082  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a8.jpg
+[WARN] 2020-12-15 17:53:35.082  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a3.jpg
+[WARN] 2020-12-15 17:53:35.088  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:53:35.097  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:53:35.103  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[INFO] 2020-12-15 17:54:41.524  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 27396 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:54:41.527  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:54:42.284  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c4a5f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:54:42.499  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:54:42.508  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:54:42.511  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:54:42.512  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:54:42.517  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:54:42.703  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:54:42.706  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:54:42.706  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 1075 ms
+[INFO] 2020-12-15 17:54:42.742  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:54:42.743  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:54:42.745  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:54:42.746  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:54:42.746  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:54:42.746  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:54:42.746  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:54:42.882  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:54:43.096  log4jdbc.log4j2.java - 1. Connection opened. {executed in 103ms} 
+[INFO] 2020-12-15 17:54:43.096  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:54:43.097  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.098  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:54:43.098  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:54:43.099  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@4b2e3e8f
+[INFO] 2020-12-15 17:54:43.100  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.103  log4jdbc.log4j2.java - 1. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:54:43.105  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:54:43.106  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7c9bdee9
+[INFO] 2020-12-15 17:54:43.107  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:54:43.108  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:54:43.108  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:54:43.108  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:54:43.109  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.109  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:54:43.110  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:54:43.111  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:54:43.116  log4jdbc.log4j2.java - 2. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-15 17:54:43.116  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:54:43.116  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.116  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:54:43.116  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:54:43.116  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@240f6c41
+[INFO] 2020-12-15 17:54:43.117  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.117  log4jdbc.log4j2.java - 2. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:54:43.117  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:54:43.117  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3659d7b1
+[INFO] 2020-12-15 17:54:43.118  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:54:43.118  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:54:43.118  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:54:43.118  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:54:43.118  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.118  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:54:43.119  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:54:43.120  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:54:43.124  log4jdbc.log4j2.java - 3. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:54:43.124  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:54:43.124  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.124  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:54:43.124  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:54:43.124  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@73a19967
+[INFO] 2020-12-15 17:54:43.125  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.125  log4jdbc.log4j2.java - 3. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:54:43.125  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:54:43.125  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5e746d37
+[INFO] 2020-12-15 17:54:43.125  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:54:43.126  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:54:43.126  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:54:43.126  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:54:43.126  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.126  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:54:43.127  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:54:43.127  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:54:43.132  log4jdbc.log4j2.java - 4. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:54:43.132  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:54:43.132  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.132  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:54:43.132  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:54:43.132  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3d49fd31
+[INFO] 2020-12-15 17:54:43.133  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.133  log4jdbc.log4j2.java - 4. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:54:43.133  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:54:43.133  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4016ccc1
+[INFO] 2020-12-15 17:54:43.134  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:54:43.134  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:54:43.134  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:54:43.134  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:54:43.134  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.134  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:54:43.135  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:54:43.136  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:54:43.140  log4jdbc.log4j2.java - 5. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:54:43.140  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:54:43.140  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.141  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:54:43.141  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:54:43.141  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@451882b2
+[INFO] 2020-12-15 17:54:43.141  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.141  log4jdbc.log4j2.java - 5. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:54:43.141  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4a23350
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:54:43.142  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:54:43.143  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:54:43.143  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:54:43.145  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:54:44.298  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:54:44.374  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:54:44.679  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:54:44.688  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:54:44.709  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:54:44.712  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 3.724 seconds (JVM running for 4.638)
+[INFO] 2020-12-15 17:54:45.507  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:54:45.507  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:54:45.512  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 5 ms
+[WARN] 2020-12-15 17:54:45.927  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/font-awesome.min93e3.css
+[WARN] 2020-12-15 17:54:45.927  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/bootstrap.min14ed.css
+[WARN] 2020-12-15 17:54:45.930  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/style.min862f.css
+[WARN] 2020-12-15 17:54:45.930  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/customer.css
+[WARN] 2020-12-15 17:54:45.930  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/animate.min.css
+[WARN] 2020-12-15 17:54:45.973  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/profile_small.jpg
+[WARN] 2020-12-15 17:54:46.023  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/jquery.min.js
+[WARN] 2020-12-15 17:54:46.024  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/bootstrap.min.js
+[WARN] 2020-12-15 17:54:46.025  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:54:46.025  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:54:46.030  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:54:46.039  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a4.jpg
+[WARN] 2020-12-15 17:54:46.043  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a7.jpg
+[WARN] 2020-12-15 17:54:46.044  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:54:46.049  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:54:46.049  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:54:46.054  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:54:46.061  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a1.jpg
+[WARN] 2020-12-15 17:54:46.073  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a2.jpg
+[WARN] 2020-12-15 17:54:46.077  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a8.jpg
+[WARN] 2020-12-15 17:54:46.077  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a3.jpg
+[WARN] 2020-12-15 17:54:46.102  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:54:46.123  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:54:46.132  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[INFO] 2020-12-15 17:55:01.031  com.elltor.greenlandsystem.AppRun.java - Starting AppRun on LAPTOP-GQ45MDEJ with PID 4424 (D:\ProjectWorkSpace\greenland-oa\greenland-system\target\classes started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-15 17:55:01.034  com.elltor.greenlandsystem.AppRun.java - The following profiles are active: dev
+[INFO] 2020-12-15 17:55:01.778  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e5ff379] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-15 17:55:02.001  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat initialized with port(s): 8000 (http)
+[INFO] 2020-12-15 17:55:02.009  org.apache.coyote.http11.Http11NioProtocol.java - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:55:02.013  org.apache.catalina.core.StandardService.java - Starting service [Tomcat]
+[INFO] 2020-12-15 17:55:02.013  org.apache.catalina.core.StandardEngine.java - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO] 2020-12-15 17:55:02.018  org.apache.catalina.core.AprLifecycleListener.java - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\ProgrameFile\xftp7\;D:\ProgrameFile\xshell7\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\ProgrameFile\JavaJdk\bin;D:\ProgrameFile\MySQL\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;D:\node-v12.13.1-win-x64;C:\ProgramData\chocolatey\bin;D:\nodejs\;D:\nodejs\node_global;D:\ProgrameFile\apache-maven-3.5.2\bin;D:\ProgrameFile\Redis-x64-3.2.100;D:\ProgrameFile\MinGW_C\MinGW\bin;D:\ProgrameFile\MinGW_C\MinGW\include;E:\programfile\runtime\win64;E:\programfile\bin;E:\programfile\polyspace\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\ProgrameFile\MySQL\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;D:\ProgrameFile\DataGrip 2019.3.1\bin;;D:\ProgrameFile\Microsoft VS Code\bin;.]
+[INFO] 2020-12-15 17:55:02.193  org.apache.jasper.servlet.TldScanner.java - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO] 2020-12-15 17:55:02.196  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring embedded WebApplicationContext
+[INFO] 2020-12-15 17:55:02.196  org.springframework.web.context.ContextLoader.java - Root WebApplicationContext: initialization completed in 1071 ms
+[INFO] 2020-12-15 17:55:02.229  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet dispatcherServlet mapped to [/]
+[INFO] 2020-12-15 17:55:02.231  org.springframework.boot.web.servlet.ServletRegistrationBean.java - Servlet statViewServlet mapped to [/druid/*]
+[INFO] 2020-12-15 17:55:02.234  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2020-12-15 17:55:02.234  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2020-12-15 17:55:02.234  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'formContentFilter' to: [/*]
+[INFO] 2020-12-15 17:55:02.234  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2020-12-15 17:55:02.234  org.springframework.boot.web.servlet.FilterRegistrationBean.java - Mapping filter: 'webStatFilter' to urls: [/*]
+[INFO] 2020-12-15 17:55:02.366  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-15 17:55:02.575  log4jdbc.log4j2.java - 1. Connection opened. {executed in 107ms} 
+[INFO] 2020-12-15 17:55:02.576  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-15 17:55:02.577  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.577  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:55:02.578  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-15 17:55:02.578  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@2cec704c
+[INFO] 2020-12-15 17:55:02.580  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.583  log4jdbc.log4j2.java - 1. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:55:02.585  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:55:02.585  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3b2f4a93
+[INFO] 2020-12-15 17:55:02.586  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-15 17:55:02.587  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:55:02.587  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-15 17:55:02.587  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-15 17:55:02.588  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.588  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:55:02.589  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:55:02.590  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:55:02.594  log4jdbc.log4j2.java - 2. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:55:02.594  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-15 17:55:02.594  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.594  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:55:02.594  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-15 17:55:02.594  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@263bbfeb
+[INFO] 2020-12-15 17:55:02.595  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.595  log4jdbc.log4j2.java - 2. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:55:02.595  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:55:02.595  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@31edeac
+[INFO] 2020-12-15 17:55:02.595  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-15 17:55:02.596  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:55:02.596  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-15 17:55:02.596  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-15 17:55:02.596  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.596  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:55:02.597  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:55:02.597  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@73545b80
+[INFO] 2020-12-15 17:55:02.601  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 3. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6d469831
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-15 17:55:02.602  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-15 17:55:02.603  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.603  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:55:02.603  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:55:02.604  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:55:02.607  log4jdbc.log4j2.java - 4. Connection opened. {executed in 3ms} 
+[INFO] 2020-12-15 17:55:02.607  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-15 17:55:02.607  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.607  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:55:02.608  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-15 17:55:02.608  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@2e3f79a2
+[INFO] 2020-12-15 17:55:02.608  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.608  log4jdbc.log4j2.java - 4. select 1  {executed in 0 ms}
+[INFO] 2020-12-15 17:55:02.608  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:55:02.608  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1460c81d
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:55:02.609  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:55:02.610  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@45e22def
+[INFO] 2020-12-15 17:55:02.614  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 5. select 1  {executed in 1 ms}
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6ae3fb94
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-15 17:55:02.615  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-15 17:55:02.616  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-15 17:55:02.616  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-15 17:55:02.616  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-15 17:55:02.617  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-15 17:55:02.618  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-15 17:55:03.763  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-15 17:55:03.841  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-15 17:55:04.107  org.apache.coyote.http11.Http11NioProtocol.java - Starting ProtocolHandler ["http-nio-8000"]
+[INFO] 2020-12-15 17:55:04.115  org.apache.tomcat.util.net.NioSelectorPool.java - Using a shared selector for servlet write/read
+[INFO] 2020-12-15 17:55:04.129  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.java - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO] 2020-12-15 17:55:04.131  com.elltor.greenlandsystem.AppRun.java - Started AppRun in 3.591 seconds (JVM running for 4.624)
+[INFO] 2020-12-15 17:55:06.720  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].java - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:55:06.720  org.springframework.web.servlet.DispatcherServlet.java - Initializing Servlet 'dispatcherServlet'
+[INFO] 2020-12-15 17:55:06.724  org.springframework.web.servlet.DispatcherServlet.java - Completed initialization in 4 ms
+[WARN] 2020-12-15 17:55:07.074  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/bootstrap.min14ed.css
+[WARN] 2020-12-15 17:55:07.075  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/font-awesome.min93e3.css
+[WARN] 2020-12-15 17:55:07.077  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/customer.css
+[WARN] 2020-12-15 17:55:07.077  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/style.min862f.css
+[WARN] 2020-12-15 17:55:07.077  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /css/animate.min.css
+[WARN] 2020-12-15 17:55:07.124  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/profile_small.jpg
+[WARN] 2020-12-15 17:55:07.164  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/jquery.min.js
+[WARN] 2020-12-15 17:55:07.170  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/bootstrap.min.js
+[WARN] 2020-12-15 17:55:07.170  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:55:07.170  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:55:07.170  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:55:07.174  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:55:07.185  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a4.jpg
+[WARN] 2020-12-15 17:55:07.185  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a7.jpg
+[WARN] 2020-12-15 17:55:07.186  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:55:07.193  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a1.jpg
+[WARN] 2020-12-15 17:55:07.193  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js
+[WARN] 2020-12-15 17:55:07.193  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/metisMenu/jquery.metisMenu.js
+[WARN] 2020-12-15 17:55:07.196  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a2.jpg
+[WARN] 2020-12-15 17:55:07.205  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a3.jpg
+[WARN] 2020-12-15 17:55:07.208  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /img/a8.jpg
+[WARN] 2020-12-15 17:55:07.223  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/slimscroll/jquery.slimscroll.min.js
+[WARN] 2020-12-15 17:55:07.241  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/layer/layer.min.js
+[WARN] 2020-12-15 17:55:07.247  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/hplus.min.js
+[WARN] 2020-12-15 17:55:07.254  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/contabs.min.js
+[WARN] 2020-12-15 17:55:07.260  org.springframework.web.servlet.PageNotFound.java - No mapping for GET /js/plugins/pace/pace.min.js

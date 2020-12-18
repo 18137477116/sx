@@ -1,0 +1,13 @@
+[INFO] 2020-12-16 18:00:11.612  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-16 18:00:11.628  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closing ...
+[INFO] 2020-12-16 18:00:11.631  log4jdbc.log4j2.java - 1. Connection closed. {executed in 2ms} 
+[INFO] 2020-12-16 18:00:11.631  log4jdbc.log4j2.java - 1. Connection.close() returned 
+[INFO] 2020-12-16 18:00:11.631  log4jdbc.log4j2.java - 2. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-16 18:00:11.631  log4jdbc.log4j2.java - 2. Connection.close() returned 
+[INFO] 2020-12-16 18:00:11.632  log4jdbc.log4j2.java - 3. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-16 18:00:11.632  log4jdbc.log4j2.java - 3. Connection.close() returned 
+[INFO] 2020-12-16 18:00:11.632  log4jdbc.log4j2.java - 4. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-16 18:00:11.632  log4jdbc.log4j2.java - 4. Connection.close() returned 
+[INFO] 2020-12-16 18:00:11.633  log4jdbc.log4j2.java - 5. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-16 18:00:11.633  log4jdbc.log4j2.java - 5. Connection.close() returned 
+[INFO] 2020-12-16 18:00:11.633  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closed
