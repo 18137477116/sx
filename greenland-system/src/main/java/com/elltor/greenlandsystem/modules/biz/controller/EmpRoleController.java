@@ -20,7 +20,7 @@ import com.elltor.greenlandsystem.modules.biz.entity.EmpRole;
 @RequiredArgsConstructor
 @RestController
 @Slf4j
-@Api(tags = "模块")
+@Api(tags = "员工-角色关系模块")
 @RequestMapping("/api/empRole")
 public class EmpRoleController {
     private final IEmpRoleService empRoleService;

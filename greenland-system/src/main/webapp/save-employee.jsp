@@ -30,16 +30,16 @@
                         <h5>员工管理<small>>添加信息</small></h5>
                     </div>
                     <div class="ibox-content">
-                        <form method="get" action="#" class="form-horizontal">
+                        <form class="form-horizontal">
                        	<div class="row">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">姓名</label>
                                 <div class="col-sm-3">
-                                    <input name="name" type="text" class="form-control input-sm">
+                                    <input id="employee-name" name="name" type="text" class="form-control input-sm">
                                 </div>
                                 <label class="col-sm-2 col-sm-offset-1 control-label">用户名</label>
                                 <div class="col-sm-3">
-                                    <input name="name" type="text" class="form-control input-sm">
+                                    <input id="employee-username" name="name" type="text" class="form-control input-sm">
                                 </div>
                             </div>
                         </div>
@@ -47,11 +47,11 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">密码</label>
                                 <div class="col-sm-3">
-                                    <input name="name" type="text" class="form-control input-sm">
+                                    <input id="employee-password" name="name" type="text" class="form-control input-sm">
                                 </div>
                                 <label class="col-sm-2 col-sm-offset-1 control-label">性别</label>
                                 <div class="col-sm-3">
-                                    <select name="level" class="selectpicker form-control">
+                                    <select id="employee-sex" name="level" class="selectpicker form-control">
 										<option>男</option>
 										<option>女</option>
 									</select>
@@ -62,11 +62,11 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">身份证号码</label>
                                 <div class="col-sm-3">
-                                    <input name="name" type="text" class="form-control input-sm">
+                                    <input id="employee-credit-number" name="name" type="text" class="form-control input-sm">
                                 </div>
                                 <label class="col-sm-2 col-sm-offset-1 control-label">联系电话</label>
                                 <div class="col-sm-3">
-                                    <input name="name" type="text" class="form-control input-sm">
+                                    <input id="employee-phone" name="name" type="text" class="form-control input-sm">
                                 </div>
                             </div>
                         </div>
@@ -74,17 +74,21 @@
                         <div class="row">
                               <label class="col-sm-2 control-label">部门</label>
                                 <div class="col-sm-3">
-                                    <select name="level" class="selectpicker form-control">
-										<option>Mustard</option>
-										<option>Ketchup</option>
-										<option>Relish</option>
+                                    <select id="employee-dept" name="level" class="selectpicker form-control">
+                                        <option value="2">项目管理</option>
+                                        <option value="3">日常办公</option>
+                                        <option value="4">消息管理</option>
+                                        <option value="28">客户信息管理</option>
+                                        <option value="34">系统管理</option>
+                                        <option value="35">对标管理</option>
+                                        <option value="36">个人信息</option>
 									</select>
                                 </div>
                             <div class="form-group">
                                 <label class="col-sm-2 col-sm-offset-1 control-label">入职时间</label>
                                 <div class="col-sm-3">
                                     <!--时间控件的id都不能改-->
-                                    <input name="start" id="start" class="laydate-icon form-control layer-date">
+                                    <input id="employee-hiredate" type="date" name="start" id="start" class="laydate-icon form-control layer-date">
                                 </div>
                             </div>
                         </div>
@@ -93,13 +97,14 @@
                               <div class="form-group">
                                 <label class="col-sm-2 control-label">年龄</label>
                                 <div class="col-sm-3">
-                                    <input name="name" type="text" class="form-control input-sm">
+                                    <input id="employee-age" name="name" type="text" class="form-control input-sm">
                                 </div>
                                 <label class="col-sm-2 col-sm-offset-1 control-label">角色</label>
                                 <div class="col-sm-3">
-                                    <select name="level" class="selectpicker form-control">
-										<option>管理员</option>
-										<option>VIP</option>
+                                    <select id="employee-role" name="level" class="selectpicker form-control">
+										<option value="5">Customer</option>
+										<option value="6">VIP</option>
+										<option value="7">VVIP</option>
 									</select>
                                 </div>                     
                             </div>
@@ -109,7 +114,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">备注</label>
                                 <div class="col-sm-9">
-                                    <textarea name="remark" class="form-control"></textarea>
+                                    <textarea id="employee-remark" name="remark" class="form-control"></textarea>
                                 </div>
                                 
                             </div>
@@ -118,11 +123,11 @@
                      	<div class="row">
                      		<div class="hr-line-dashed"></div>
                      	</div>
-                          
+
                          <div class="row">
                             <div class="form-group">
                                 <div class="col-sm-3 col-sm-offset-3 text-right">
-                                    <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> 保存内容</button>
+                                    <button id="employee-add-btn" type="button" class="btn btn-primary"><i class="fa fa-save"></i> 保存内容</button>
                                 </div>
                                 <div class="col-sm-3">
                                 	<a href="list-employee.jsp" class="btn btn-white"><i class="fa fa-reply"></i> 返回</a>
@@ -146,41 +151,56 @@
 	<script src="js/plugins/layer/laydate/laydate.js"></script>
    <script>
 	$(document).ready(function() {
-		// 设置按钮的样式
-		$('.selectpicker').selectpicker('setStyle', 'btn-white');
-		//初始化日期控件
-		laydate({elem: "#start"});
-	
-		
-		
-		
-		//--------------------下面是常用代码模版---------------------------------------
-		
-		//下拉列表使用ajax加载说明例子
-		function loadSelect(){
-			var option='<option value="0">-------请选择------</option><option value="4">用友软件</option><option selected value="5">浪潮软件</option>';
-			$("#company").html(option);
-			//ajax填充数据后需调用下面的方法来刷新下拉列表
-			$("#company").selectpicker('refresh');
-		}
-		loadSelect();
-		
-		//点击按钮，消息提示框
-		$("#demo1").click(function() {
-			//基本消息框－留着备用
-			swal({
-				title: "恭喜，添加成功",
-				text: "数据添加成功，为您返回列表页！"
-			})
-		});
-		
-		// 选择客户公司名称时自动选对应的客户方负责人
-		$("#company").change(function(){
-			var thisVal=$(this).val();
-			//val指value属性,选中value属性＝thisVal的选项
-			$('#customer').selectpicker('val',thisVal);
-		});
-		
+
+
+        $("#employee-add-btn").click(function () {
+            addEmployee();
+            return false;
+        })
+
+		function addEmployee(){
+		    let d = {
+                ename:$("#employee-name").val(),
+                esex:$("#employee-sex").val(),
+                eage:$("#employee-age").val(),
+                telephone:$("#employee-phone").val(),
+                hiredate:$("#employee-hiredate").val(),
+                pnum:$("#employee-credit-number").val(),
+                username:$("#employee-username").val(),
+                password:$("#employee-password").val(),
+                remark:$("#employee-remark").val(),
+                dfk:$("#employee-dept").val(),
+                roleId:$("#employee-role").val(),
+            };
+            console.log("/api/employee/add   data -> ",d)
+            $.ajax({
+                type: "POST",
+                url: "/api/employee/add",
+                dataType: "json",
+                data: d,
+                success: function (res) {
+                    if(res.code==0){
+                        alert("添加成功");
+                        $("#employee-name").val("");
+                        $("#employee-sex").val("");
+                        $("#employee-age").val("");
+                        $("#employee-phone").val("");
+                        $("#employee-hiredate").val("");
+                        $("#employee-credit-number").val("");
+                        $("#employee-username").val("");
+                        $("#employee-password").val("");
+                        $("#employee-remark").val("");
+                        $("#employee-dept").val("");
+                        $("#employee-role").val("");
+                    }
+                },
+                error: function (err) {
+                    console.log("/api/sources/add request error!!!")
+                }
+            });
+        }
+
+
 	});
    </script>
    <!-- 修复日期控件长度-->

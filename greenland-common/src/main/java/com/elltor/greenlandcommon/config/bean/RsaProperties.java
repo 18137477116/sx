@@ -13,11 +13,9 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 public class RsaProperties {
+    //TODO 通过yaml文件未能注入privateKey
+    @Value("${rsa.private-key}")
+    public static String privateKey="MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAKUYXhjmJInm0vsqOfSOPto+CuENiUeUnb6e+jip6eMh3oksX4ZlnwAnHanmNUxXplpKMke8QLxR74VFRzulHpdCmhJqUqVx+OxG8Sb+jVhu7tbggoEoGh4syXKNBntLAccsFnYUwC8nf1J6JeGXBBehhaq9aeBH2JCE1IZ9xxjXAgMBAAECgYAe7+8KKW5lbRzSNjqACnvat8+gFsJH6KCazP3Eyopqprkl6WvJKpfeFnZnlR0dvjsNJmQ/rxZOc+g3iCDuG2Yc0k1YIsYWX4ZpaInYkoZlkOIePS+y0kZ/vDEylIlffwzYgUk8U9Ez3Ll1xI36WGb82N2Kq4pkcNqc7mC6Zu8BSQJBAO8+AkJ/acMkYRaJT4xFkgsv9dUb5XnWOA/RV5fMyDopOevjIBMvSHWh1Bk98FgZAmA8EfLkcX48yDcVQSkPD5UCQQCwqMkCJzclkax1heXnvmc0Xv0TMr6+Ly2zuR2nCTZ8a7/Bh5RaYFv+BuHJ/fT9b8HwlmvOME0jY0E0wscEGhu7AkBQ3K2Y2kXeDkK+gkSfzbfyDhDSKe6jApPKTOCFT1LxzZNlNkxWD6o3EC6HJZdBv5o8+rC6Xxo5J8QoUgfHH+8NAkA0KBD4jsVsVR76r6aaDhAAWU8UnPXNxrYSisPjbgflIhbCN5ooOKzQSg3dihoLvTQgKPj5Li+IFCTLQ/poDqFDAkB5bFyA1GI9Kwc5MvApQd4PhvZxZRCCnH2QTDktJm79NQTqxKwcblmtyg8djdZMnVrReZ5cJQB5GFlzOgTAnWpH";
 
-    public static String privateKey;
-
-    @Value("${rsa.private_key}")
-    public void setPrivateKey(String privateKey) {
-        RsaProperties.privateKey = privateKey;
-    }
+    public static String publicKey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClGF4Y5iSJ5tL7Kjn0jj7aPgrhDYlHlJ2+nvo4qenjId6JLF+GZZ8AJx2p5jVMV6ZaSjJHvEC8Ue+FRUc7pR6XQpoSalKlcfjsRvEm/o1Ybu7W4IKBKBoeLMlyjQZ7SwHHLBZ2FMAvJ39SeiXhlwQXoYWqvWngR9iQhNSGfccY1wIDAQAB";
 }

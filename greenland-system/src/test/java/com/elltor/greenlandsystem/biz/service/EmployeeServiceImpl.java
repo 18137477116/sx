@@ -3,9 +3,8 @@ package com.elltor.greenlandsystem.biz.service;
 
 import com.elltor.greenlandcommon.config.bean.RsaProperties;
 import com.elltor.greenlandcommon.utils.RsaUtils;
-import com.elltor.greenlandsystem.modules.biz.bo.EmployeeBO;
-import com.elltor.greenlandsystem.modules.biz.dto.EmployeeDTO;
-import com.elltor.greenlandsystem.modules.biz.entity.Role;
+import com.elltor.greenlandsystem.modules.biz.entity.bo.EmployeeBO;
+import com.elltor.greenlandsystem.modules.biz.entity.dto.EmployeeDTO;
 import com.elltor.greenlandsystem.modules.biz.service.IEmployeeService;
 import com.elltor.greenlandsystem.modules.security.dto.SecurityUserDTO;
 import org.junit.Test;
@@ -17,8 +16,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import java.util.stream.Collectors;
 
 @SpringBootTest
 @RunWith(SpringJUnit4ClassRunner.class)

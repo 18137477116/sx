@@ -10,6 +10,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * <p>
@@ -44,6 +45,7 @@ public class Employee extends Model<Employee> {
     private String telephone;
 
     @ApiModelProperty(value = "入职日期")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate hiredate;
 
     @ApiModelProperty(value = "身份证号码")

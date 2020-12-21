@@ -50,10 +50,10 @@ spring:
 
   redis:
     #数据库索引
-    database: 10
-    host: 59.110.218.15
+    database: 15
+    host: 127.0.0.1
     port: 6379
-    password: Marchsoft@redis
+#    password: marchsoft@redis
     #连接超时时间（ms）
     timeout: 5000
     # 自定义redis默认过期时间（单位：时）
@@ -76,31 +76,12 @@ spring:
       # 最大请求大小
       max-request-size: 215MB
 
-# 登录相关配置
-login:
+security-config:
   # 登录缓存
-  cache-enable: true
+  cache-enable: false
   #  是否限制单用户登录
   single-login: false
-  #  验证码
-  login-code:
-    #  验证码类型配置 查看 LoginProperties 类
-    code-type: arithmetic
-    #  登录图形验证码有效时间/分钟
-    expiration: 2
-    #  验证码高度
-    width: 111
-    #  验证码宽度
-    heigth: 36
-    # 内容长度
-    length: 2
-    # 字体名称，为空则使用默认字体
-    font-name:
-    # 字体大小
-    font-size: 25
-
-#jwt
-jwt:
+  # header中字段名
   header: Authorization
   # 令牌前缀
   token-start-with: Bearer
@@ -110,8 +91,6 @@ jwt:
   token-validity-in-seconds: 14400000
   # 在线用户key
   online-key: online-token-
-  # 验证码
-  code-key: code-key-
   # token 续期检查时间范围（默认30分钟，单位毫秒），在token即将过期的一段时间内用户操作了，则给用户的token续期
   detect: 1800000
   # 续期时间范围，默认1小时，单位毫秒
@@ -149,7 +128,7 @@ task:
 
 #密码加密传输，前端公钥加密，后端私钥解密
 rsa:
-  private_key: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEA0vfvyTdGJkdbHkB8mp0f3FE0GYP3AYPaJF7jUd1M0XxFSE2ceK3k2kw20YvQ09NJKk+OMjWQl9WitG9pB6tSCQIDAQABAkA2SimBrWC2/wvauBuYqjCFwLvYiRYqZKThUS3MZlebXJiLB+Ue/gUifAAKIg1avttUZsHBHrop4qfJCwAI0+YRAiEA+W3NK/RaXtnRqmoUUkb59zsZUBLpvZgQPfj1MhyHDz0CIQDYhsAhPJ3mgS64NbUZmGWuuNKp5coY2GIj/zYDMJp6vQIgUueLFXv/eZ1ekgz2Oi67MNCk5jeTF2BurZqNLR3MSmUCIFT3Q6uHMtsB9Eha4u7hS31tj1UWE+D+ADzp59MGnoftAiBeHT7gDMuqeJHPL4b+kC+gzV4FGTfhR9q3tTbklZkD2A==
+  private-key: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEA0vfvyTdGJkdbHkB8mp0f3FE0GYP3AYPaJF7jUd1M0XxFSE2ceK3k2kw20YvQ09NJKk+OMjWQl9WitG9pB6tSCQIDAQABAkA2SimBrWC2/wvauBuYqjCFwLvYiRYqZKThUS3MZlebXJiLB+Ue/gUifAAKIg1avttUZsHBHrop4qfJCwAI0+YRAiEA+W3NK/RaXtnRqmoUUkb59zsZUBLpvZgQPfj1MhyHDz0CIQDYhsAhPJ3mgS64NbUZmGWuuNKp5coY2GIj/zYDMJp6vQIgUueLFXv/eZ1ekgz2Oi67MNCk5jeTF2BurZqNLR3MSmUCIFT3Q6uHMtsB9Eha4u7hS31tj1UWE+D+ADzp59MGnoftAiBeHT7gDMuqeJHPL4b+kC+gzV4FGTfhR9q3tTbklZkD2A==
 
 intercept:
   # 允许访问的ip（多个，隔开）

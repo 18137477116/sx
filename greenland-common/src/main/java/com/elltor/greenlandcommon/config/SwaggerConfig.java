@@ -35,10 +35,10 @@ public class SwaggerConfig {
 
     private final SwaggerProperties swaggerProperties;
 
-    @Value("${jwt.header}")
+    @Value("${security-config.header}")
     private String tokenHeader;
 
-    @Value("${jwt.token-start-with}")
+    @Value("${security-config.token-start-with}")
     private String tokenStartWith;
 
 

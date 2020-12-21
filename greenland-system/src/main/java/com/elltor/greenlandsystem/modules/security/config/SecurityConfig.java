@@ -19,7 +19,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.core.GrantedAuthorityDefaults;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.DefaultSecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.filter.CorsFilter;
+import org.springframework.web.server.handler.DefaultWebFilterChain;
 
 
 @Slf4j
@@ -44,6 +47,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private final MyAuthenticationSuccessHandler successHandler;
 
     private final MyAuthencationFailureHandler failureHandler;
+
+    private final SecurityGeneralFilter securityGeneralFilter;
 
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
@@ -92,6 +97,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .anyRequest()
             .authenticated();
             httpSecurity.logout().logoutUrl("/logout");
+            httpSecurity.addFilterBefore(securityGeneralFilter, UsernamePasswordAuthenticationFilter.class);
     }
 
 

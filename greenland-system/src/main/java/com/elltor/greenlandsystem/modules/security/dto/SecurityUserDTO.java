@@ -1,6 +1,6 @@
 package com.elltor.greenlandsystem.modules.security.dto;
 
-import com.elltor.greenlandsystem.modules.biz.dto.EmployeeDTO;
+import com.elltor.greenlandsystem.modules.biz.entity.dto.EmployeeDTO;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;

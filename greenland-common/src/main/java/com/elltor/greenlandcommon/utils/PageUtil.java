@@ -6,8 +6,10 @@ import com.alibaba.fastjson.JSONArray;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import marchsoft.base.PageVO;
-import marchsoft.exception.BadRequestException;
+import com.elltor.greenlandcommon.base.PageVO;
+import com.elltor.greenlandcommon.exception.BadRequestException;
+import org.springframework.stereotype.Component;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,7 +88,7 @@ public class PageUtil extends cn.hutool.core.util.PageUtil {
      */
     public static <K> IPage<K> buildPage(PageVO pageVO) {
         Page<K> page = new Page<>(pageVO.getCurrent(), pageVO.getSize());
-        page.addOrder(pageVO.getOrderList());
+        page.addOrder(pageVO.generateOrderList());
         return page;
     }
 

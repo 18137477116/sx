@@ -1,0 +1,2026 @@
+[INFO] 2020-12-19 20:18:56.380  log4jdbc.log4j2.java - 6. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-19 20:18:56.382  log4jdbc.log4j2.java - 6. Connection.new Connection returned 
+[INFO] 2020-12-19 20:18:56.382  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.382  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:18:56.383  log4jdbc.log4j2.java - 6. Statement.new Statement returned 
+[INFO] 2020-12-19 20:18:56.383  log4jdbc.log4j2.java - 6. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@27983719
+[INFO] 2020-12-19 20:18:56.383  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.392  log4jdbc.log4j2.java - 6. select 1  {executed in 1 ms}
+[INFO] 2020-12-19 20:18:56.392  log4jdbc.log4j2.java - 6. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:18:56.392  log4jdbc.log4j2.java - 6. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@448bd53c
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. ResultSet.close() returned void
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. Statement.close() returned 
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 20:18:56.394  log4jdbc.log4j2.java - 6. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 20:18:56.394  log4jdbc.log4j2.java - 6. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 20:18:56.394  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:18:56.395  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.prepareStatement(SELECT COUNT(1) FROM employee WHERE (ename LIKE ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@69c95dc1
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.398  log4jdbc.log4j2.java - 6. SELECT COUNT(1) FROM employee WHERE (ename LIKE '%%')  {executed in 0 ms}
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@9430063
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.getLong(1) returned 3
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 
+|---------|
+|count(1) |
+|---------|
+|3        |
+|---------|
+
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.close() returned void
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5072f103
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee 
+ 
+ WHERE (ename LIKE ?) LIMIT ?,?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@73769999
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.setLong(2, 0) returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.setLong(3, 10) returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee 
+WHERE (ename LIKE '%%') LIMIT 0,10  {executed in 1 ms}
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3987cf4e
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@7e3adb94 - Field level information: 
+	com.mysql.jdbc.Field@39c73f9b[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@65c05c90[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@623a02d9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@4a748371[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@4a4f5643[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2d8ca746[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@1f9254e4[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@7113236c[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@41de9e43[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@9a0b7a9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@498e70d[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@6c78bcb1[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(username) returned xb
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                                                     |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.next() returned false
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.close() returned void
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5570e291
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:18:56.405  log4jdbc.log4j2.java - 6. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 20:18:56.405  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:34:07.121  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:34:07.121  log4jdbc.log4j2.java - 6. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-19 20:34:07.121  log4jdbc.log4j2.java - 6. Connection.close() returned 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.new Connection returned 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Statement.new Statement returned 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@5bae19a6
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.376  log4jdbc.log4j2.java - 7. select 1  {executed in 0 ms}
+[INFO] 2020-12-19 20:36:30.376  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:30.376  log4jdbc.log4j2.java - 7. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@226ff3f3
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. Statement.close() returned 
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.379  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT COUNT(1) FROM employee WHERE (ename LIKE ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7e2e746e
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. SELECT COUNT(1) FROM employee WHERE (ename LIKE '%%')  {executed in 1 ms}
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@33762526
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.getLong(1) returned 3
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 
+|---------|
+|count(1) |
+|---------|
+|3        |
+|---------|
+
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@55d3a5c8
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee 
+ 
+ WHERE (ename LIKE ?) LIMIT ?,?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5a0e6721
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(2, 0) returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(3, 10) returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee 
+WHERE (ename LIKE '%%') LIMIT 0,10  {executed in 1 ms}
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@43591393
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@bec13d5 - Field level information: 
+	com.mysql.jdbc.Field@4a4e1746[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@63d05641[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@681e1423[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@387d04e[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@39c9135f[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@584a2879[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@406d805f[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@7dd52dbc[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@cf78ab2[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@57772b5[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2934653c[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@7dd8156b[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned xb
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                                                     |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.next() returned false
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@731693be
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:32.242  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:32.243  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.244  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:32.244  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:32.244  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT COUNT(1) FROM employee WHERE (ename LIKE ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@50b5c3f5
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. SELECT COUNT(1) FROM employee WHERE (ename LIKE '%%')  {executed in 0 ms}
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@15b74787
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. ResultSet.getLong(1) returned 3
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 
+|---------|
+|count(1) |
+|---------|
+|3        |
+|---------|
+
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@24e89264
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee 
+ 
+ WHERE (ename LIKE ?) LIMIT ?,?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5abc4767
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(2, 0) returned 
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(3, 10) returned 
+[INFO] 2020-12-19 20:36:32.248  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.248  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee 
+WHERE (ename LIKE '%%') LIMIT 0,10  {executed in 1 ms}
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7598b8c8
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@191ca223 - Field level information: 
+	com.mysql.jdbc.Field@798768d6[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@41b88ffe[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@71d621f9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@d27985a[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@4f2490f0[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@4a662195[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@a7f08c9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@3b2ba494[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@50e30011[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2b72f911[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@59b985f6[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@3f509551[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned xb
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                                                     |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.next() returned false
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4b7d2cad
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:52:07.130  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:52:07.131  log4jdbc.log4j2.java - 7. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-19 20:52:07.131  log4jdbc.log4j2.java - 7. Connection.close() returned 
+[INFO] 2020-12-19 21:04:32.837  com.elltor.greenlandsystem.biz.service.SourcesServiceImplTest.java - Starting SourcesServiceImplTest on LAPTOP-GQ45MDEJ with PID 16264 (started by Admin in D:\ProjectWorkSpace\greenland-oa\greenland-system)
+[INFO] 2020-12-19 21:04:32.845  com.elltor.greenlandsystem.biz.service.SourcesServiceImplTest.java - The following profiles are active: dev
+[INFO] 2020-12-19 21:04:34.341  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb1acf86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-19 21:04:34.426  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.java - Bean 'redisConfig' of type [com.elltor.greenlandcommon.config.RedisConfig$$EnhancerBySpringCGLIB$$d1bf2e40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2020-12-19 21:04:34.612  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.java - Init DruidDataSource
+[INFO] 2020-12-19 21:04:35.041  log4jdbc.log4j2.java - 1. Connection opened. {executed in 214ms} 
+[INFO] 2020-12-19 21:04:35.042  log4jdbc.log4j2.java - 1. Connection.new Connection returned 
+[INFO] 2020-12-19 21:04:35.044  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.044  log4jdbc.log4j2.java - 1. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:35.045  log4jdbc.log4j2.java - 1. Statement.new Statement returned 
+[INFO] 2020-12-19 21:04:35.045  log4jdbc.log4j2.java - 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@273a5a8a
+[INFO] 2020-12-19 21:04:35.048  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.052  log4jdbc.log4j2.java - 1. select 1  {executed in 2 ms}
+[INFO] 2020-12-19 21:04:35.057  log4jdbc.log4j2.java - 1. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:35.057  log4jdbc.log4j2.java - 1. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@76fe6cdc
+[INFO] 2020-12-19 21:04:35.061  log4jdbc.log4j2.java - 1. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:35.062  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 21:04:35.062  log4jdbc.log4j2.java - 1. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:35.062  log4jdbc.log4j2.java - 1. Statement.close() returned 
+[INFO] 2020-12-19 21:04:35.063  log4jdbc.log4j2.java - 1. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.063  log4jdbc.log4j2.java - 1. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 21:04:35.064  log4jdbc.log4j2.java - 1. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 21:04:35.065  log4jdbc.log4j2.java - 1. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 21:04:35.070  log4jdbc.log4j2.java - 2. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-19 21:04:35.071  log4jdbc.log4j2.java - 2. Connection.new Connection returned 
+[INFO] 2020-12-19 21:04:35.071  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.071  log4jdbc.log4j2.java - 2. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:35.071  log4jdbc.log4j2.java - 2. Statement.new Statement returned 
+[INFO] 2020-12-19 21:04:35.071  log4jdbc.log4j2.java - 2. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@6a9344f5
+[INFO] 2020-12-19 21:04:35.071  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.072  log4jdbc.log4j2.java - 2. select 1  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:35.072  log4jdbc.log4j2.java - 2. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:35.072  log4jdbc.log4j2.java - 2. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5584d9c6
+[INFO] 2020-12-19 21:04:35.072  log4jdbc.log4j2.java - 2. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:35.072  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 21:04:35.073  log4jdbc.log4j2.java - 2. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:35.073  log4jdbc.log4j2.java - 2. Statement.close() returned 
+[INFO] 2020-12-19 21:04:35.073  log4jdbc.log4j2.java - 2. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.073  log4jdbc.log4j2.java - 2. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 21:04:35.073  log4jdbc.log4j2.java - 2. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 21:04:35.074  log4jdbc.log4j2.java - 2. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Connection.new Connection returned 
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Statement.new Statement returned 
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@3234474
+[INFO] 2020-12-19 21:04:35.080  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.081  log4jdbc.log4j2.java - 3. select 1  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:35.081  log4jdbc.log4j2.java - 3. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 3. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@631cb129
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 3. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 3. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 3. Statement.close() returned 
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 3. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.082  log4jdbc.log4j2.java - 3. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 21:04:35.083  log4jdbc.log4j2.java - 3. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 21:04:35.084  log4jdbc.log4j2.java - 3. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 21:04:35.090  log4jdbc.log4j2.java - 4. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-19 21:04:35.090  log4jdbc.log4j2.java - 4. Connection.new Connection returned 
+[INFO] 2020-12-19 21:04:35.090  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.090  log4jdbc.log4j2.java - 4. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:35.090  log4jdbc.log4j2.java - 4. Statement.new Statement returned 
+[INFO] 2020-12-19 21:04:35.091  log4jdbc.log4j2.java - 4. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@36b9cb99
+[INFO] 2020-12-19 21:04:35.091  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.092  log4jdbc.log4j2.java - 4. select 1  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:35.092  log4jdbc.log4j2.java - 4. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:35.092  log4jdbc.log4j2.java - 4. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4130955c
+[INFO] 2020-12-19 21:04:35.092  log4jdbc.log4j2.java - 4. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:35.093  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 21:04:35.093  log4jdbc.log4j2.java - 4. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:35.093  log4jdbc.log4j2.java - 4. Statement.close() returned 
+[INFO] 2020-12-19 21:04:35.093  log4jdbc.log4j2.java - 4. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.093  log4jdbc.log4j2.java - 4. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 21:04:35.094  log4jdbc.log4j2.java - 4. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 21:04:35.095  log4jdbc.log4j2.java - 4. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 21:04:35.099  log4jdbc.log4j2.java - 5. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-19 21:04:35.100  log4jdbc.log4j2.java - 5. Connection.new Connection returned 
+[INFO] 2020-12-19 21:04:35.100  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.100  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:35.100  log4jdbc.log4j2.java - 5. Statement.new Statement returned 
+[INFO] 2020-12-19 21:04:35.100  log4jdbc.log4j2.java - 5. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@2577a95d
+[INFO] 2020-12-19 21:04:35.100  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.101  log4jdbc.log4j2.java - 5. select 1  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:35.101  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:35.101  log4jdbc.log4j2.java - 5. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1668919e
+[INFO] 2020-12-19 21:04:35.102  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:35.102  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 21:04:35.102  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:35.102  log4jdbc.log4j2.java - 5. Statement.close() returned 
+[INFO] 2020-12-19 21:04:35.102  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:35.102  log4jdbc.log4j2.java - 5. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 21:04:35.103  log4jdbc.log4j2.java - 5. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 21:04:35.104  log4jdbc.log4j2.java - 5. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 21:04:35.109  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} inited
+[INFO] 2020-12-19 21:04:36.888  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.java - Autowired annotation is not supported on static fields: public static java.lang.String com.elltor.greenlandcommon.config.bean.RsaProperties.privateKey
+[INFO] 2020-12-19 21:04:37.934  org.springframework.security.web.DefaultSecurityFilterChain.java - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6009cd34, org.springframework.security.web.context.SecurityContextPersistenceFilter@203b953c, org.springframework.security.web.header.HeaderWriterFilter@bb8ead8, org.springframework.security.web.authentication.logout.LogoutFilter@713999c2, com.elltor.greenlandsystem.modules.security.config.SecurityGeneralFilter@65844c96, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27bc1d44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41a16eb3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53cb0bcb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25214797, org.springframework.security.web.session.SessionManagementFilter@6e807e2, org.springframework.security.web.access.ExceptionTranslationFilter@3c16528d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b332439]
+[INFO] 2020-12-19 21:04:37.953  com.elltor.greenlandcommon.config.RedisConfig.java - 初始化 -> [Redis CacheErrorHandler]
+[INFO] 2020-12-19 21:04:37.983  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.java - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO] 2020-12-19 21:04:38.542  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-19 21:04:38.680  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.java - Adding welcome page template: index
+[INFO] 2020-12-19 21:04:39.314  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.java - Context refreshed
+[INFO] 2020-12-19 21:04:39.335  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.java - Found 1 custom documentation plugin(s)
+[INFO] 2020-12-19 21:04:39.369  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.java - Scanning for api listing references
+[INFO] 2020-12-19 21:04:39.547  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.java - Generating unique operation named: updateUsingPOST_1
+[INFO] 2020-12-19 21:04:39.576  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.java - Generating unique operation named: loginUsingPOST_1
+[INFO] 2020-12-19 21:04:39.597  com.elltor.greenlandsystem.biz.service.SourcesServiceImplTest.java - Started SourcesServiceImplTest in 7.388 seconds (JVM running for 8.266)
+[INFO] 2020-12-19 21:04:39.864  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.864  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.871  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.883  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.884  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (url IS NULL AND pid IS NOT NULL)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5cd71ee2
+[INFO] 2020-12-19 21:04:39.888  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.888  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.889  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (url IS NULL AND pid IS NOT NULL)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.890  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.890  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.890  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1bd59b82
+[INFO] 2020-12-19 21:04:39.893  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@63d0e8d - Field level information: 
+	com.mysql.jdbc.Field@69a76b74[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@1dd443c1[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2aafa84f[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@448892f1[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@1626bddf[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@29532e91[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:39.896  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.896  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 2
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 项目管理
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 项目管理
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.898  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 3
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 日常办公
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 日常办公
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 4
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 消息管理
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 信息箱
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.899  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 28
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 客户信息管理
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 管理客户信息
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 34
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 系统管理
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 系统管理
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 35
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 对标管理
+[INFO] 2020-12-19 21:04:39.900  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 对标管理
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 36
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 个人信息
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned void
+[INFO] 2020-12-19 21:04:39.901  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 曾经沧海难为水,除却巫山不是云
+[INFO] 2020-12-19 21:04:39.902  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 1
+[INFO] 2020-12-19 21:04:39.902  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.902  log4jdbc.log4j2.java - 
+|---|-------|----|----------------|----|-----|
+|id |name   |url |remark          |pid |icon |
+|---|-------|----|----------------|----|-----|
+|2  |项目管理   |null|项目管理            |1   |null |
+|3  |日常办公   |null|日常办公            |1   |null |
+|4  |消息管理   |null|信息箱             |1   |null |
+|28 |客户信息管理 |null|管理客户信息          |1   |null |
+|34 |系统管理   |null|系统管理            |1   |null |
+|35 |对标管理   |null|对标管理            |1   |null |
+|36 |个人信息   |null|曾经沧海难为水,除却巫山不是云 |1   |null |
+|---|-------|----|----------------|----|-----|
+
+[INFO] 2020-12-19 21:04:39.902  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.903  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.903  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@470c4229
+[INFO] 2020-12-19 21:04:39.903  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.903  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.903  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.905  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.905  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.910  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.910  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.911  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.911  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.912  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@23c72128
+[INFO] 2020-12-19 21:04:39.913  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 2) returned 
+[INFO] 2020-12-19 21:04:39.913  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.913  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 2)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6eb00cbe
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@74e4be21 - Field level information: 
+	com.mysql.jdbc.Field@4d174189[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@628bd77e[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@c30f26d[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@5d74507c[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2a984952[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@16944b58[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.915  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 9
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 基本信息管理
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned project-base.jsp
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 项目基本信息
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 2
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.916  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 10
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 需求信息管理
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned project-need.jsp
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 项目需求分析
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 2
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 11
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 模块管理
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned project-model.jsp
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 模块管理
+[INFO] 2020-12-19 21:04:39.917  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 2
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 12
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 功能管理
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned project-function.jsp
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 功能管理
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 2
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.918  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 13
+[INFO] 2020-12-19 21:04:39.919  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 附件管理
+[INFO] 2020-12-19 21:04:39.919  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned project-file.jsp
+[INFO] 2020-12-19 21:04:39.919  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 附件管理
+[INFO] 2020-12-19 21:04:39.919  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 2
+[INFO] 2020-12-19 21:04:39.919  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.919  log4jdbc.log4j2.java - 
+|---|-------|---------------------|-------|----|-----|
+|id |name   |url                  |remark |pid |icon |
+|---|-------|---------------------|-------|----|-----|
+|9  |基本信息管理 |project-base.jsp     |项目基本信息 |2   |null |
+|10 |需求信息管理 |project-need.jsp     |项目需求分析 |2   |null |
+|11 |模块管理   |project-model.jsp    |模块管理   |2   |null |
+|12 |功能管理   |project-function.jsp |功能管理   |2   |null |
+|13 |附件管理   |project-file.jsp     |附件管理   |2   |null |
+|---|-------|---------------------|-------|----|-----|
+
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@62b42406
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.920  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.921  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.924  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.924  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.925  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.925  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.925  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@65da4a5d
+[INFO] 2020-12-19 21:04:39.925  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 9) returned 
+[INFO] 2020-12-19 21:04:39.926  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.926  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 9)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@fbe8fd3
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@1ab268bd - Field level information: 
+	com.mysql.jdbc.Field@2fafa7b5[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.927  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.928  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.928  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.928  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.928  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6a552721
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.929  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.931  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.931  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.932  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.932  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.932  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3815a7d1
+[INFO] 2020-12-19 21:04:39.932  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 10) returned 
+[INFO] 2020-12-19 21:04:39.933  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.933  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.934  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 10)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.934  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.934  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.934  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@24dc150c
+[INFO] 2020-12-19 21:04:39.934  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@1d2d4d7a - Field level information: 
+	com.mysql.jdbc.Field@5e020dd1[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.934  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@f0c1ae1
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.935  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.936  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.936  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.936  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.938  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.938  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.938  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.939  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.939  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@783dc0e7
+[INFO] 2020-12-19 21:04:39.939  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 11) returned 
+[INFO] 2020-12-19 21:04:39.939  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.939  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.940  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 11)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.940  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.940  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.940  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@361f26b4
+[INFO] 2020-12-19 21:04:39.940  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@1d9ff1e2 - Field level information: 
+	com.mysql.jdbc.Field@722b3ba2[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2b62475a
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.941  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.942  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.942  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.942  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.944  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.944  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.945  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.945  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.945  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@624d778e
+[INFO] 2020-12-19 21:04:39.945  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 12) returned 
+[INFO] 2020-12-19 21:04:39.946  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.946  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 12)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@39ae6408
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@cfacf0 - Field level information: 
+	com.mysql.jdbc.Field@4c8abec7[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.947  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@f36f34d
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.948  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.950  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.950  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.950  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.951  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.951  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@72e36677
+[INFO] 2020-12-19 21:04:39.951  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 13) returned 
+[INFO] 2020-12-19 21:04:39.951  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.951  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 13)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6b86826a
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@3c2dda7c - Field level information: 
+	com.mysql.jdbc.Field@4b9fa2f[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.952  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@32caae19
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.953  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.956  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.956  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.957  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.957  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.957  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7be62956
+[INFO] 2020-12-19 21:04:39.957  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 3) returned 
+[INFO] 2020-12-19 21:04:39.958  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.958  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 3)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@30e143ff
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@452ec287 - Field level information: 
+	com.mysql.jdbc.Field@41404aa2[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@b267745[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@31e22365[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2ebf524[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@41bdaa81[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@799971ac[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.959  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 14
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 创建任务
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned task-add.jsp
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 创建任务
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 15
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 任务信息
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned task.jsp
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 任务信息
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.960  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 16
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 我的任务
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned task-my.jsp
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 我的任务
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.961  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 17
+[INFO] 2020-12-19 21:04:39.962  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 通知公告
+[INFO] 2020-12-19 21:04:39.962  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned notice.jsp
+[INFO] 2020-12-19 21:04:39.962  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 通知公告
+[INFO] 2020-12-19 21:04:39.962  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 18
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 档案管理
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned archives.jsp
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 档案管理
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 19
+[INFO] 2020-12-19 21:04:39.963  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 我的档案
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned myarchives.jsp
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 我的档案
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 20
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 报销审批
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned baoxiao-task.jsp
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 报销审批
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.964  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 21
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 我的报销
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned mybaoxiao-base.jsp
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 我的报销
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 3
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 
+|---|-----|-------------------|-------|----|-----|
+|id |name |url                |remark |pid |icon |
+|---|-----|-------------------|-------|----|-----|
+|14 |创建任务 |task-add.jsp       |创建任务   |3   |null |
+|15 |任务信息 |task.jsp           |任务信息   |3   |null |
+|16 |我的任务 |task-my.jsp        |我的任务   |3   |null |
+|17 |通知公告 |notice.jsp         |通知公告   |3   |null |
+|18 |档案管理 |archives.jsp       |档案管理   |3   |null |
+|19 |我的档案 |myarchives.jsp     |我的档案   |3   |null |
+|20 |报销审批 |baoxiao-task.jsp   |报销审批   |3   |null |
+|21 |我的报销 |mybaoxiao-base.jsp |我的报销   |3   |null |
+|---|-----|-------------------|-------|----|-----|
+
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.965  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@492fa72a
+[INFO] 2020-12-19 21:04:39.966  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.966  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.966  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.966  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.966  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.967  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.967  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.968  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.968  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.968  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@513fab1e
+[INFO] 2020-12-19 21:04:39.968  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 14) returned 
+[INFO] 2020-12-19 21:04:39.968  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.968  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 14)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@470135da
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@7323dce7 - Field level information: 
+	com.mysql.jdbc.Field@5f68eec6[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.969  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@118a4d5
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.970  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.971  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.971  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.972  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.972  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.972  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.973  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.973  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6cb194f5
+[INFO] 2020-12-19 21:04:39.973  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 15) returned 
+[INFO] 2020-12-19 21:04:39.973  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.973  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 15)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@74b7497b
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@74f649a7 - Field level information: 
+	com.mysql.jdbc.Field@308c65e0[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.974  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1e482ecd
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.975  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.976  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@58b5f7d2
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 16) returned 
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.977  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.978  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 16)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.978  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.978  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.978  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@bc52a41
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@9f48198 - Field level information: 
+	com.mysql.jdbc.Field@5615f82d[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.979  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@3dc2f14
+[INFO] 2020-12-19 21:04:39.980  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.980  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.980  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.980  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.980  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.981  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.982  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.982  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.982  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.982  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2e8986b6
+[INFO] 2020-12-19 21:04:39.983  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 17) returned 
+[INFO] 2020-12-19 21:04:39.983  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.983  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 17)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5724c7da
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@3ad2883a - Field level information: 
+	com.mysql.jdbc.Field@5814b4fb[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.984  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4ba13fed
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.985  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.986  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.986  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.987  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.988  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.988  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@651cedfb
+[INFO] 2020-12-19 21:04:39.988  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 18) returned 
+[INFO] 2020-12-19 21:04:39.988  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.988  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 18)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@18d22ecf
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@73d83141 - Field level information: 
+	com.mysql.jdbc.Field@31443680[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.989  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@3a988299
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.990  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.991  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.991  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.992  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.992  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.992  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@878feb2
+[INFO] 2020-12-19 21:04:39.992  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 19) returned 
+[INFO] 2020-12-19 21:04:39.992  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.992  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.993  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 19)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.993  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1818390b
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@67a38 - Field level information: 
+	com.mysql.jdbc.Field@7ef4aceb[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:39.994  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@683fe7b5
+[INFO] 2020-12-19 21:04:39.995  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:39.995  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:39.995  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:39.995  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:39.995  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.996  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:39.997  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.997  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:39.997  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:39.997  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5b5b8730
+[INFO] 2020-12-19 21:04:39.998  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 20) returned 
+[INFO] 2020-12-19 21:04:39.998  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.998  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:39.999  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 20)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:39.999  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:39.999  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:39.999  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@93fb44
+[INFO] 2020-12-19 21:04:39.999  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@321c2a7 - Field level information: 
+	com.mysql.jdbc.Field@14b48f39[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:39.999  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1bea7b0
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.000  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.001  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.001  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.003  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.003  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.004  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.004  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.005  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6f9a3325
+[INFO] 2020-12-19 21:04:40.005  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 21) returned 
+[INFO] 2020-12-19 21:04:40.005  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.005  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.006  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 21)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.006  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.006  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.006  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@28e91f6d
+[INFO] 2020-12-19 21:04:40.006  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@16d4024e - Field level information: 
+	com.mysql.jdbc.Field@11e24688[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@3a1a0bc
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.007  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.008  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.008  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.010  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.010  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.011  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.011  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.011  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4be460e5
+[INFO] 2020-12-19 21:04:40.011  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 4) returned 
+[INFO] 2020-12-19 21:04:40.011  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.011  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.012  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 4)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.012  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.012  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.012  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@454e9d65
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@7805478c - Field level information: 
+	com.mysql.jdbc.Field@6807989e[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@c2e33[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@31183ee2[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@63f3366a[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@37e491e2[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@56f84c9b[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 27
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 发送邮件
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned email-send.jsp
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 仅仅使用javamail发送邮件就ok啦
+[INFO] 2020-12-19 21:04:40.013  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 4
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 31
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 发件箱
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned email.jsp
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 发件箱
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 4
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.014  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 32
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 消息推送
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned message-give.jsp
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 消息推送
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 4
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 33
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 论坛
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned forum.jsp
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 论坛
+[INFO] 2020-12-19 21:04:40.015  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 4
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 
+|---|-----|-----------------|---------------------|----|-----|
+|id |name |url              |remark               |pid |icon |
+|---|-----|-----------------|---------------------|----|-----|
+|27 |发送邮件 |email-send.jsp   |仅仅使用javamail发送邮件就ok啦 |4   |null |
+|31 |发件箱  |email.jsp        |发件箱                  |4   |null |
+|32 |消息推送 |message-give.jsp |消息推送                 |4   |null |
+|33 |论坛   |forum.jsp        |论坛                   |4   |null |
+|---|-----|-----------------|---------------------|----|-----|
+
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5cdda548
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.016  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.017  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.017  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.018  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.018  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.019  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.019  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.019  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4f2544b0
+[INFO] 2020-12-19 21:04:40.019  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 27) returned 
+[INFO] 2020-12-19 21:04:40.019  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.020  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 27)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5bad555b
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@41ec4271 - Field level information: 
+	com.mysql.jdbc.Field@70aa58e1[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.021  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@24f90aff
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.022  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.024  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.024  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.025  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.025  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.025  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7252bdb
+[INFO] 2020-12-19 21:04:40.025  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 31) returned 
+[INFO] 2020-12-19 21:04:40.025  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.025  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.026  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 31)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.026  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.026  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.026  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@25ea068e
+[INFO] 2020-12-19 21:04:40.026  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@4cd8db31 - Field level information: 
+	com.mysql.jdbc.Field@201a8ea7[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@7b64bbad
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.027  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.028  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.028  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.029  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.030  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.030  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.030  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.030  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@574218f
+[INFO] 2020-12-19 21:04:40.031  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 32) returned 
+[INFO] 2020-12-19 21:04:40.031  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.031  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.031  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 32)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.031  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@735988cf
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@2d3eecda - Field level information: 
+	com.mysql.jdbc.Field@236a4d30[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.032  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.033  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@38968752
+[INFO] 2020-12-19 21:04:40.033  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.033  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.033  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.033  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.033  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.034  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.035  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.035  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.035  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.035  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6294e4a6
+[INFO] 2020-12-19 21:04:40.036  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 33) returned 
+[INFO] 2020-12-19 21:04:40.036  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.036  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.036  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 33)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@13662609
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@27a0e6ce - Field level information: 
+	com.mysql.jdbc.Field@2b80497f[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.037  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4c000cc4
+[INFO] 2020-12-19 21:04:40.038  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.038  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.038  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.038  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.038  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.040  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.040  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.040  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.040  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.040  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6c36051c
+[INFO] 2020-12-19 21:04:40.041  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 28) returned 
+[INFO] 2020-12-19 21:04:40.041  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.041  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 28)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@45d46254
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@a240452 - Field level information: 
+	com.mysql.jdbc.Field@460e5ffe[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@1a4cbcc6[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@7cecab19[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@56402642[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@620572db[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@1d5048d1[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.042  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 29
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 客户信息
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned customer.jsp
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 客户信息的统计
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 28
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 
+|---|-----|-------------|--------|----|-----|
+|id |name |url          |remark  |pid |icon |
+|---|-----|-------------|--------|----|-----|
+|29 |客户信息 |customer.jsp |客户信息的统计 |28  |null |
+|---|-----|-------------|--------|----|-----|
+
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.043  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5358c8fa
+[INFO] 2020-12-19 21:04:40.044  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.044  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.044  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.044  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.044  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.045  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.045  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.046  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.046  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.046  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1a02ebe0
+[INFO] 2020-12-19 21:04:40.046  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 29) returned 
+[INFO] 2020-12-19 21:04:40.046  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.046  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.047  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 29)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.047  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.047  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.047  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@58b3eb1
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@6d7e2795 - Field level information: 
+	com.mysql.jdbc.Field@78743dd8[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2986427e
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.048  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.049  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.049  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.049  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.050  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.050  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.051  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.051  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.051  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@35d88a54
+[INFO] 2020-12-19 21:04:40.051  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 34) returned 
+[INFO] 2020-12-19 21:04:40.051  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.052  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.052  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 34)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6c1bebca
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@3d4818e8 - Field level information: 
+	com.mysql.jdbc.Field@26c6288d[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@57bd9c2b[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@644b68ad[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@1939a394[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@e2c627e[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@35cbeb54[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 39
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 人员管理
+[INFO] 2020-12-19 21:04:40.053  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned user.jsp
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 人员管理
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 34
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 40
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 权限维护
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned pm.jsp
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 权限维护
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 34
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 41
+[INFO] 2020-12-19 21:04:40.054  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 角色管理
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned role.jsp
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 角色管理
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 34
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 
+|---|-----|---------|-------|----|-----|
+|id |name |url      |remark |pid |icon |
+|---|-----|---------|-------|----|-----|
+|39 |人员管理 |user.jsp |人员管理   |34  |null |
+|40 |权限维护 |pm.jsp   |权限维护   |34  |null |
+|41 |角色管理 |role.jsp |角色管理   |34  |null |
+|---|-----|---------|-------|----|-----|
+
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5e8bd498
+[INFO] 2020-12-19 21:04:40.055  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.056  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.056  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.056  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.056  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.057  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.057  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.058  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.058  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.058  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@335972a5
+[INFO] 2020-12-19 21:04:40.058  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 39) returned 
+[INFO] 2020-12-19 21:04:40.058  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.058  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.059  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 39)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.059  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.059  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.059  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@59a2bed1
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@49f2646 - Field level information: 
+	com.mysql.jdbc.Field@4b00d59[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@309cf657
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.060  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.061  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.061  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.062  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.062  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.063  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.063  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.063  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4d4c4b14
+[INFO] 2020-12-19 21:04:40.063  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 40) returned 
+[INFO] 2020-12-19 21:04:40.063  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.063  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.064  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 40)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.064  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.064  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.064  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@49925d21
+[INFO] 2020-12-19 21:04:40.064  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@11170228 - Field level information: 
+	com.mysql.jdbc.Field@46ee7013[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@3275a47f
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.065  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.066  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.066  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.066  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.067  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.067  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.068  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.068  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.068  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1b5af65b
+[INFO] 2020-12-19 21:04:40.068  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 41) returned 
+[INFO] 2020-12-19 21:04:40.068  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.068  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.069  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 41)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.069  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@2e0163cb
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@6b289535 - Field level information: 
+	com.mysql.jdbc.Field@74619273[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.070  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1d7f7962
+[INFO] 2020-12-19 21:04:40.071  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.071  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.071  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.071  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.071  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.072  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.072  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.073  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.073  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.073  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@32d1d6c5
+[INFO] 2020-12-19 21:04:40.073  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 35) returned 
+[INFO] 2020-12-19 21:04:40.073  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.074  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.074  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 35)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4a5b38e6
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@58583a2d - Field level information: 
+	com.mysql.jdbc.Field@3e8afc2d[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@2d172c7[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@115ef673[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@8ce3f27[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@614cd187[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@6802d023[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 42
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 数据采集
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned duibiao-base.jsp
+[INFO] 2020-12-19 21:04:40.075  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 数据采集
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 35
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 43
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 设定指标
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned indexvalue-base.jsp
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 设定指标
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 35
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 44
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 目标营业额分析
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned duibiao-result.jsp
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 目标营业额分析
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 35
+[INFO] 2020-12-19 21:04:40.076  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 
+|---|--------|--------------------|--------|----|-----|
+|id |name    |url                 |remark  |pid |icon |
+|---|--------|--------------------|--------|----|-----|
+|42 |数据采集    |duibiao-base.jsp    |数据采集    |35  |null |
+|43 |设定指标    |indexvalue-base.jsp |设定指标    |35  |null |
+|44 |目标营业额分析 |duibiao-result.jsp  |目标营业额分析 |35  |null |
+|---|--------|--------------------|--------|----|-----|
+
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@77476fcf
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.077  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.078  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.078  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.079  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.079  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.080  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.080  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.080  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@70805849
+[INFO] 2020-12-19 21:04:40.080  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 42) returned 
+[INFO] 2020-12-19 21:04:40.080  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.080  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.081  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 42)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.081  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.081  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.081  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@e7d0db2
+[INFO] 2020-12-19 21:04:40.081  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@4a41caed - Field level information: 
+	com.mysql.jdbc.Field@6b4fd7d[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@12723c5d
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.082  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.084  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.084  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.084  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.084  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.084  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@56a09a5c
+[INFO] 2020-12-19 21:04:40.085  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 43) returned 
+[INFO] 2020-12-19 21:04:40.085  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.085  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 43)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@775edae0
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@26f480c6 - Field level information: 
+	com.mysql.jdbc.Field@2567c091[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.086  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@76cf91c9
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.087  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.089  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.089  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.089  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.090  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.090  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@74bfdd66
+[INFO] 2020-12-19 21:04:40.090  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 44) returned 
+[INFO] 2020-12-19 21:04:40.090  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.090  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 44)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6fc7e828
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@26a9c6df - Field level information: 
+	com.mysql.jdbc.Field@2ce24a1a[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.091  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@76eadc5a
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.092  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.094  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.094  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.094  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.094  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.094  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT  id,name,url,remark,pid,icon  FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@1e9d7366
+[INFO] 2020-12-19 21:04:40.095  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 36) returned 
+[INFO] 2020-12-19 21:04:40.095  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.095  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. SELECT id,name,url,remark,pid,icon FROM sources WHERE (pid = 36)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@20914835
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@615c4ea4 - Field level information: 
+	com.mysql.jdbc.Field@417446d9[catalog=prometion,tableName=sources,originalTableName=sources,columnName=id,originalColumnName=id,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@34070bd2[catalog=prometion,tableName=sources,originalTableName=sources,columnName=name,originalColumnName=name,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@1e7d3d87[catalog=prometion,tableName=sources,originalTableName=sources,columnName=url,originalColumnName=url,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@1dd76982[catalog=prometion,tableName=sources,originalTableName=sources,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@7e76a66f[catalog=prometion,tableName=sources,originalTableName=sources,columnName=pid,originalColumnName=pid,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@72237be8[catalog=prometion,tableName=sources,originalTableName=sources,columnName=icon,originalColumnName=icon,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.096  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 45
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 信息检索
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned info.jsp
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 信息查看
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 36
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 46
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 修改密码
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned modpassword.jsp
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 修改密码
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 36
+[INFO] 2020-12-19 21:04:40.097  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.getInt(id) returned 48
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.getString(name) returned 曾经的自己
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.getString(url) returned history.jsp
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.getString(remark) returned 曾经沧海难为水,除却巫山不是云。
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.getInt(pid) returned 36
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.getString(icon) returned void
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 
+|---|------|----------------|-----------------|----|-----|
+|id |name  |url             |remark           |pid |icon |
+|---|------|----------------|-----------------|----|-----|
+|45 |信息检索  |info.jsp        |信息查看             |36  |null |
+|46 |修改密码  |modpassword.jsp |修改密码             |36  |null |
+|48 |曾经的自己 |history.jsp     |曾经沧海难为水,除却巫山不是云。 |36  |null |
+|---|------|----------------|-----------------|----|-----|
+
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.098  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.099  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@23f8036d
+[INFO] 2020-12-19 21:04:40.099  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.099  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.099  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.099  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.099  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.100  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.100  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.101  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.101  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.101  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@68f69ca3
+[INFO] 2020-12-19 21:04:40.102  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 45) returned 
+[INFO] 2020-12-19 21:04:40.102  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.102  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.102  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 45)  {executed in 0 ms}
+[INFO] 2020-12-19 21:04:40.102  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1e3566e
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@2b058bfd - Field level information: 
+	com.mysql.jdbc.Field@4805069b[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.103  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.104  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@f01fc6d
+[INFO] 2020-12-19 21:04:40.104  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.104  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.104  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.104  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.104  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.105  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.105  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.106  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.106  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.106  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@85cd413
+[INFO] 2020-12-19 21:04:40.106  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 46) returned 
+[INFO] 2020-12-19 21:04:40.106  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.106  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 46)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@688d2a5d
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@2842c098 - Field level information: 
+	com.mysql.jdbc.Field@2820b369[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.107  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@476c137b
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.108  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.109  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.109  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.110  log4jdbc.log4j2.java - 5. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 21:04:40.110  log4jdbc.log4j2.java - 5. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 21:04:40.110  log4jdbc.log4j2.java - 5. Connection.prepareStatement(SELECT COUNT( 1 ) FROM sources 
+ 
+ WHERE (pid = ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@79144d0e
+[INFO] 2020-12-19 21:04:40.110  log4jdbc.log4j2.java - 5. PreparedStatement.setInt(1, 48) returned 
+[INFO] 2020-12-19 21:04:40.110  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.110  log4jdbc.log4j2.java - 5. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 21:04:40.111  log4jdbc.log4j2.java - 5. SELECT COUNT( 1 ) FROM sources WHERE (pid = 48)  {executed in 1 ms}
+[INFO] 2020-12-19 21:04:40.111  log4jdbc.log4j2.java - 5. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 21:04:40.111  log4jdbc.log4j2.java - 5. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@540212be
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@2579d8a - Field level information: 
+	com.mysql.jdbc.Field@2507a170[catalog=,tableName=,originalTableName=,columnName=COUNT( 1 ),originalColumnName=,mysqlType=8(FIELD_TYPE_LONGLONG),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.next() returned true
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.getInt(COUNT( 1 )) returned 0
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.wasNull() returned false
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 
+|-----------|
+|count( 1 ) |
+|-----------|
+|0          |
+|-----------|
+
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.next() returned false
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. ResultSet.close() returned void
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@3af39e7b
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 21:04:40.112  log4jdbc.log4j2.java - 5. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 21:04:40.113  log4jdbc.log4j2.java - 5. PreparedStatement.close() returned 
+[INFO] 2020-12-19 21:04:40.113  log4jdbc.log4j2.java - 5. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 21:04:40.113  log4jdbc.log4j2.java - 5. Connection.isClosed() returned false
+[INFO] 2020-12-19 21:04:40.162  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.java - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 2020-12-19 21:04:40.183  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closing ...
+[INFO] 2020-12-19 21:04:40.190  log4jdbc.log4j2.java - 1. Connection closed. {executed in 5ms} 
+[INFO] 2020-12-19 21:04:40.190  log4jdbc.log4j2.java - 1. Connection.close() returned 
+[INFO] 2020-12-19 21:04:40.190  log4jdbc.log4j2.java - 2. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-19 21:04:40.190  log4jdbc.log4j2.java - 2. Connection.close() returned 
+[INFO] 2020-12-19 21:04:40.190  log4jdbc.log4j2.java - 3. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-19 21:04:40.191  log4jdbc.log4j2.java - 3. Connection.close() returned 
+[INFO] 2020-12-19 21:04:40.191  log4jdbc.log4j2.java - 4. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-19 21:04:40.191  log4jdbc.log4j2.java - 4. Connection.close() returned 
+[INFO] 2020-12-19 21:04:40.191  log4jdbc.log4j2.java - 5. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-19 21:04:40.192  log4jdbc.log4j2.java - 5. Connection.close() returned 
+[INFO] 2020-12-19 21:04:40.192  com.alibaba.druid.pool.DruidDataSource.java - {dataSource-1} closed

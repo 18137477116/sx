@@ -1,0 +1,186 @@
+[
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "基本信息管理",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "需求信息管理",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "模块管理",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "功能管理",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "附件管理",
+        "open": false
+      }
+    ],
+    "name": "项目管理",
+    "open": false
+  },
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "创建任务",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "任务信息",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "我的任务",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "通知公告",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "档案管理",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "我的档案",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "报销审批",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "我的报销",
+        "open": false
+      }
+    ],
+    "name": "日常办公",
+    "open": false
+  },
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "发送邮件",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "发件箱",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "消息推送",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "论坛",
+        "open": false
+      }
+    ],
+    "name": "消息管理",
+    "open": false
+  },
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "客户信息",
+        "open": false
+      }
+    ],
+    "name": "客户信息管理",
+    "open": false
+  },
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "人员管理",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "权限维护",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "角色管理",
+        "open": false
+      }
+    ],
+    "name": "系统管理",
+    "open": false
+  },
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "数据采集",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "设定指标",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "目标营业额分析",
+        "open": false
+      }
+    ],
+    "name": "对标管理",
+    "open": false
+  },
+  {
+    "isParent": true,
+    "children": [
+      {
+        "isParent": false,
+        "name": "信息检索",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "修改密码",
+        "open": false
+      },
+      {
+        "isParent": false,
+        "name": "曾经的自己",
+        "open": false
+      }
+    ],
+    "name": "个人信息",
+    "open": false
+  }
+]

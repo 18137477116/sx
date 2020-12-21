@@ -9,7 +9,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <title>办公系统 - 基础表格</title>
     <meta name="keywords" content="办公系统">
     <meta name="description" content="办公系统">
@@ -38,27 +37,27 @@
                                 <label class="col-sm-3 control-label">部门编号：</label>
 
                                 <div class="col-sm-8">
-                                    <input type="email" class="form-control">
+                                    <input id="deptno-input" type="number" name="deptno" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">部门名称：</label>
 
                                 <div class="col-sm-8">
-                                    <input type="email" class="form-control">
+                                    <input id="dname-input" type="text" name="dname" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 control-label">区域：</label>
 
                                 <div class="col-sm-8">
-                                    <input type="email" class="form-control">
+                                    <input id="local-input" type="text" name="local" class="form-control">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-offset-3 col-sm-8">
-                                    <button class="btn btn-sm btn-white" type="submit"><i class="fa fa-save"></i> 保存</button>
-                                    <button class="btn btn-sm btn-white" type="submit"><i class="fa fa-undo"></i> 重置</button>
+                                    <button id="save-user-btn" class="btn btn-sm btn-white" type="submit"><i class="fa fa-save"></i> 保存</button>
+                                    <button class="btn btn-sm btn-white" type="button"><i class="fa fa-undo"></i> 重置</button>
                                 </div>
                             </div>
                         </form>
@@ -84,7 +83,7 @@
                                         <th>操作</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="dept-table-bady">
                                     <tr>
                                         <td><input  type="checkbox" checked=""></td>
 										<td>10</td>
@@ -160,7 +159,102 @@
 				text: "Sweet Alert 是一个替代传统的 JavaScript Alert 的漂亮提示效果。"
 			})
 		});
+
+        loadDept();
+
+        $("#save-user-btn").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "/api/dept/add",
+                dataType: "json",
+                data: {
+                    deptno:$("#deptno-input").val(),
+                    dname:$("#dname-input").val(),
+                    local:$("#local-input").val()
+                },
+                success: function (res) {
+                    if(res.code==0){
+                       alert("添加用户成功")
+                        $("#deptno-input").val("");
+                        $("#dname-input").val("");
+                        $("#local-input").val("");
+                        loadDept();
+                    }else{
+                        console.log("/api/dept/all ERROR     res:", res)
+                    }
+                },
+                error: function (err) {
+                    console.log("employee list request error!!!")
+                }
+            });
+            return false;
+        })
+
+
+        //--------------------------------
+
+        function loadDept() {
+            $.ajax({
+                type: "GET",
+                contentType: "application/json;charset=UTF-8",
+                url: "/api/dept/all",
+                dataType: "json",
+                data: {},
+                success: function (res) {
+                    if(res.code==0){
+                        $("#dept-table-bady").html("");
+                        res.data.forEach((val,idx)=>{
+                            $("#dept-table-bady").append(createElem(val,idx));
+                        })
+                    }else{
+                        console.log("dept list request fail. res:", res)
+                    }
+                },
+                error: function (err) {
+                    console.log("employee list request error!!!")
+                }
+            });
+        }
+
+        function createElem(itm,idx) {
+            let $e = $('' +
+                '<tr data-deptno="'+itm.deptno+'">\n' +
+                '        <td><input  type="checkbox" checked=""></td>\n' +
+                '        <td>'+itm.deptno+'</td>\n' +
+                '        <td>'+itm.dname+'</td>\n' +
+                '        <td>'+itm.local+'</td>\n' +
+                '        <td>\n' +
+                '           <a href="update-dept.jsp"><i class="glyphicon glyphicon-edit  text-navy"></i></a>\n' +
+                '           <a href="javascript:removeDept('+itm.deptno+')" class="btndel"><i class="glyphicon glyphicon-remove  text-navy"></i></a>\n' +
+                '        </td>\n' +
+                '</tr>' +
+                '');
+            return $e;
+        }
+
 	});
+
+    function removeDept(deptno){
+        $.ajax({
+            type: "POST",
+            url: "/api/dept/delete",
+            dataType: "json",
+            data: {
+                id:deptno
+            },
+            success: function (res) {
+                if(res.code==0){
+                    alert("部门删除成功");
+                    $("#dept-table-bady [data-deptno="+deptno+"]").remove();
+                }else{
+                    alert("部门删除失败");
+                }
+            },
+            error: function (err) {
+                console.log("employee list request error!!!")
+            }
+        });
+    }
     </script>  
 </body>
 

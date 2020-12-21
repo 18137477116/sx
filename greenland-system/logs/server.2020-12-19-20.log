@@ -1,0 +1,376 @@
+[INFO] 2020-12-19 20:18:56.380  log4jdbc.log4j2.java - 6. Connection opened. {executed in 5ms} 
+[INFO] 2020-12-19 20:18:56.382  log4jdbc.log4j2.java - 6. Connection.new Connection returned 
+[INFO] 2020-12-19 20:18:56.382  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.382  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:18:56.383  log4jdbc.log4j2.java - 6. Statement.new Statement returned 
+[INFO] 2020-12-19 20:18:56.383  log4jdbc.log4j2.java - 6. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@27983719
+[INFO] 2020-12-19 20:18:56.383  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.392  log4jdbc.log4j2.java - 6. select 1  {executed in 1 ms}
+[INFO] 2020-12-19 20:18:56.392  log4jdbc.log4j2.java - 6. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:18:56.392  log4jdbc.log4j2.java - 6. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@448bd53c
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. ResultSet.close() returned void
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. Statement.close() returned 
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.393  log4jdbc.log4j2.java - 6. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 20:18:56.394  log4jdbc.log4j2.java - 6. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 20:18:56.394  log4jdbc.log4j2.java - 6. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 20:18:56.394  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:18:56.395  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.prepareStatement(SELECT COUNT(1) FROM employee WHERE (ename LIKE ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@69c95dc1
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.397  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.398  log4jdbc.log4j2.java - 6. SELECT COUNT(1) FROM employee WHERE (ename LIKE '%%')  {executed in 0 ms}
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@9430063
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.getLong(1) returned 3
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 
+|---------|
+|count(1) |
+|---------|
+|3        |
+|---------|
+
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. ResultSet.close() returned void
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5072f103
+[INFO] 2020-12-19 20:18:56.399  log4jdbc.log4j2.java - 6. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee 
+ 
+ WHERE (ename LIKE ?) LIMIT ?,?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@73769999
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.setLong(2, 0) returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. PreparedStatement.setLong(3, 10) returned 
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.400  log4jdbc.log4j2.java - 6. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee 
+WHERE (ename LIKE '%%') LIMIT 0,10  {executed in 1 ms}
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@3987cf4e
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@7e3adb94 - Field level information: 
+	com.mysql.jdbc.Field@39c73f9b[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@65c05c90[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@623a02d9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@4a748371[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@4a4f5643[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2d8ca746[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@1f9254e4[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@7113236c[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@41de9e43[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@9a0b7a9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@498e70d[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@6c78bcb1[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 20:18:56.401  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-19 20:18:56.402  log4jdbc.log4j2.java - 6. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.next() returned true
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-19 20:18:56.403  log4jdbc.log4j2.java - 6. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(username) returned xb
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                                                     |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.next() returned false
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. ResultSet.close() returned void
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5570e291
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 20:18:56.404  log4jdbc.log4j2.java - 6. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:18:56.405  log4jdbc.log4j2.java - 6. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 20:18:56.405  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:34:07.121  log4jdbc.log4j2.java - 6. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:34:07.121  log4jdbc.log4j2.java - 6. Connection closed. {executed in 0ms} 
+[INFO] 2020-12-19 20:34:07.121  log4jdbc.log4j2.java - 6. Connection.close() returned 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection opened. {executed in 4ms} 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.new Connection returned 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Statement.new Statement returned 
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@5bae19a6
+[INFO] 2020-12-19 20:36:30.375  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.376  log4jdbc.log4j2.java - 7. select 1  {executed in 0 ms}
+[INFO] 2020-12-19 20:36:30.376  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:30.376  log4jdbc.log4j2.java - 7. Statement.executeQuery(select 1) returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@226ff3f3
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 
+|--|
+|1 |
+|--|
+|--|
+
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. Statement.close() returned 
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.377  log4jdbc.log4j2.java - 7. Connection.getHoldability() returned 2
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.isReadOnly() returned false
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.getTransactionIsolation() returned 4
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:30.378  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.379  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT COUNT(1) FROM employee WHERE (ename LIKE ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7e2e746e
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.380  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. SELECT COUNT(1) FROM employee WHERE (ename LIKE '%%')  {executed in 1 ms}
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@33762526
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.getLong(1) returned 3
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 
+|---------|
+|count(1) |
+|---------|
+|3        |
+|---------|
+
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:30.381  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@55d3a5c8
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee 
+ 
+ WHERE (ename LIKE ?) LIMIT ?,?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5a0e6721
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(2, 0) returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(3, 10) returned 
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.382  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee 
+WHERE (ename LIKE '%%') LIMIT 0,10  {executed in 1 ms}
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@43591393
+[INFO] 2020-12-19 20:36:30.383  log4jdbc.log4j2.java - 7. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@bec13d5 - Field level information: 
+	com.mysql.jdbc.Field@4a4e1746[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@63d05641[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@681e1423[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@387d04e[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@39c9135f[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@584a2879[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@406d805f[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@7dd52dbc[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@cf78ab2[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@57772b5[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2934653c[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@7dd8156b[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:30.384  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-19 20:36:30.385  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned xb
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                                                     |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.next() returned false
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:30.386  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@731693be
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 20:36:30.387  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:32.242  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:36:32.243  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.244  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:32.244  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:32.244  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT COUNT(1) FROM employee WHERE (ename LIKE ?)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@50b5c3f5
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. SELECT COUNT(1) FROM employee WHERE (ename LIKE '%%')  {executed in 0 ms}
+[INFO] 2020-12-19 20:36:32.245  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@15b74787
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. ResultSet.getLong(1) returned 3
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 
+|---------|
+|count(1) |
+|---------|
+|3        |
+|---------|
+
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:32.246  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@24e89264
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. Connection.getCatalog() returned prometion
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.new PreparedStatement returned 
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. Connection.prepareStatement(SELECT  eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic  FROM employee 
+ 
+ WHERE (ename LIKE ?) LIMIT ?,?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@5abc4767
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.setString(1, "%%") returned 
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(2, 0) returned 
+[INFO] 2020-12-19 20:36:32.247  log4jdbc.log4j2.java - 7. PreparedStatement.setLong(3, 10) returned 
+[INFO] 2020-12-19 20:36:32.248  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.248  log4jdbc.log4j2.java - 7. Connection.getAutoCommit() returned true
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. SELECT eid,ename,esex,eage,telephone,hiredate,pnum,username,password,remark,dfk,pic FROM employee 
+WHERE (ename LIKE '%%') LIMIT 0,10  {executed in 1 ms}
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. PreparedStatement.execute() returned true
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. ResultSet.new ResultSet returned 
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7598b8c8
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. ResultSet.getMetaData() returned com.mysql.jdbc.ResultSetMetaData@191ca223 - Field level information: 
+	com.mysql.jdbc.Field@798768d6[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eid,originalColumnName=eid,mysqlType=3(FIELD_TYPE_LONG),flags= AUTO_INCREMENT PRIMARY_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@41b88ffe[catalog=prometion,tableName=employee,originalTableName=employee,columnName=ename,originalColumnName=ename,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@71d621f9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=esex,originalColumnName=esex,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@d27985a[catalog=prometion,tableName=employee,originalTableName=employee,columnName=eage,originalColumnName=eage,mysqlType=3(FIELD_TYPE_LONG),flags=, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@4f2490f0[catalog=prometion,tableName=employee,originalTableName=employee,columnName=telephone,originalColumnName=telephone,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@4a662195[catalog=prometion,tableName=employee,originalTableName=employee,columnName=hiredate,originalColumnName=hiredate,mysqlType=10(FIELD_TYPE_DATE),flags= BINARY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@a7f08c9[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pnum,originalColumnName=pnum,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@3b2ba494[catalog=prometion,tableName=employee,originalTableName=employee,columnName=username,originalColumnName=username,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@50e30011[catalog=prometion,tableName=employee,originalTableName=employee,columnName=password,originalColumnName=password,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@2b72f911[catalog=prometion,tableName=employee,originalTableName=employee,columnName=remark,originalColumnName=remark,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+	com.mysql.jdbc.Field@59b985f6[catalog=prometion,tableName=employee,originalTableName=employee,columnName=dfk,originalColumnName=dfk,mysqlType=3(FIELD_TYPE_LONG),flags= MULTI_KEY, charsetIndex=63, charsetName=US-ASCII]
+	com.mysql.jdbc.Field@3f509551[catalog=prometion,tableName=employee,originalTableName=employee,columnName=pic,originalColumnName=pic,mysqlType=253(FIELD_TYPE_VAR_STRING),flags=, charsetIndex=33, charsetName=utf8]
+[INFO] 2020-12-19 20:36:32.249  log4jdbc.log4j2.java - 7. ResultSet.getType() returned 1003
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 1
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 宋思明
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 43
+[INFO] 2020-12-19 20:36:32.250  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 110
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-02
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 0011
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ssm
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 权利操纵者
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 5
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 4
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 郭海藻
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 女
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 23
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 119
+[INFO] 2020-12-19 20:36:32.251  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned ghz
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 风华绝代...
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 3
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.next() returned true
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getInt(eid) returned 5
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(ename) returned 小贝
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(esex) returned 男
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getInt(eage) returned 24
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(telephone) returned 120
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getObject(hiredate,class java.time.LocalDate) returned 2020-03-06
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(pnum) returned 111
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(username) returned xb
+[INFO] 2020-12-19 20:36:32.252  log4jdbc.log4j2.java - 7. ResultSet.getString(password) returned $2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.getString(remark) returned 当前员工在试用期，多关注
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.getInt(dfk) returned 4
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.getString(pic) returned void
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|eid |ename |esex |eage |telephone |hiredate |pnum |username |password                                                     |remark       |dfk |pic |
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+|1   |宋思明   |男    |43   |110       |[unread] |0011 |ssm      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |权利操纵者        |5   |null|
+|4   |郭海藻   |女    |23   |119       |[unread] |111  |ghz      |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |风华绝代...      |3   |null|
+|5   |小贝    |男    |24   |120       |[unread] |111  |xb       |$2a$10$2ssT/FMh7ajUO/pd48Xhi.LDo3pPBxkpZoOYfa1IuqhSOhvoWQz4m |当前员工在试用期，多关注 |4   |null|
+|----|------|-----|-----|----------|---------|-----|---------|-------------------------------------------------------------|-------------|----|----|
+
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.next() returned false
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. ResultSet.close() returned void
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4b7d2cad
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. PreparedStatement.getMoreResults() returned false
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. PreparedStatement.getUpdateCount() returned -1
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. PreparedStatement.close() returned 
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. Connection.clearWarnings() returned 
+[INFO] 2020-12-19 20:36:32.253  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:52:07.130  log4jdbc.log4j2.java - 7. Connection.isClosed() returned false
+[INFO] 2020-12-19 20:52:07.131  log4jdbc.log4j2.java - 7. Connection closed. {executed in 1ms} 
+[INFO] 2020-12-19 20:52:07.131  log4jdbc.log4j2.java - 7. Connection.close() returned 

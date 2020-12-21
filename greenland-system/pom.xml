@@ -2,19 +2,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>greenland-system</artifactId>
+<!--    <name>greenland-system</name>-->
+    <description>Demo project for Spring Boot</description>
+
     <parent>
         <artifactId>greenland-oa</artifactId>
         <groupId>com.elltor</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>greenland-system</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>greenland-system</name>
-    <description>Demo project for Spring Boot</description>
-
     <!-- 这里引用子模块需要的jar, 这些jar只在本模块使用 -->
     <dependencies>
+        <!--导入通用子模块-->
+        <dependency>
+            <groupId>com.elltor</groupId>
+            <artifactId>greenland-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <!--Mysql连接驱动-->
         <dependency>
             <groupId>mysql</groupId>
@@ -49,14 +56,25 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-            <version>1.2</version>
         </dependency>
 
         <!-- 返回jsp页面还需要这个依赖 -->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
-            <scope>provided</scope>
+<!--            <scope>provided</scope>-->
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope><!--provided表明该包只在编译和测试的时候用-->
         </dependency>
 
         <!-- mybatis plus 代码生成的模板引擎 -->
@@ -65,6 +83,23 @@
             <artifactId>freemarker</artifactId>
         </dependency>
 
+        <!--    github地址：https://github.com/jwtk/jjwt    -->
+        <!--jwt-->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <!--jwt 结束-->
     </dependencies>
 
 

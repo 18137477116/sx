@@ -17,7 +17,7 @@
     <meta name="description" content="办公系统">
 
     <link rel="shortcut icon" href="favicon.ico"> 
-    	<link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+        <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
     <link href="css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
     <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -27,9 +27,9 @@
 </head>
 
 <body class="gray-bg">
-	<div class="wrapper2 wrapper-content2 animated fadeInRight">
-	       <div class="row">
-	    		<div class="col-sm-5">
+    <div class="wrapper2 wrapper-content2 animated fadeInRight">
+           <div class="row">
+                <div class="col-sm-5">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         <h5>添加角色</h5>
@@ -72,14 +72,14 @@
                                 <label class="col-sm-3 control-label">是否启用：</label>
                                 <div class="col-sm-8">
                                     <div class="switch">
-			                            <div class="onoffswitch">
-			                                <input type="checkbox" checked class="onoffswitch-checkbox" id="status">
-			                                <label class="onoffswitch-label" for="status">
-			                                    <span class="onoffswitch-inner"></span>
-			                                    <span class="onoffswitch-switch"></span>
-			                                </label>
-			                            </div>
-			                        </div>
+                                        <div class="onoffswitch">
+                                            <input type="checkbox" checked class="onoffswitch-checkbox" id="status">
+                                            <label class="onoffswitch-label" for="status">
+                                                <span class="onoffswitch-inner"></span>
+                                                <span class="onoffswitch-switch"></span>
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -92,18 +92,18 @@
                     </div>
                 </div>
             </div>
-	    		<div class="col-sm-7">
+                <div class="col-sm-7">
                   <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         <h5>角色列表 <small>点击修改信息将显示在左边表单</small></h5>
                     </div>
-                    <div class="ibox-content">                   		
+                    <div class="ibox-content">                           
                         <div class="hr-line-dashed2"></div>
                         <div class="row">
                             <div class="table-responsive">
                             <table class="table table-striped list-table">
                                 <thead>
-                                    <tr>		
+                                    <tr>        
                                         <th>选择</th>
                                         <th>角色名称</th>
                                         <th>角色描述：</th>
@@ -111,76 +111,168 @@
                                         <th>操作</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody id="role-table-body">
                                     <tr>
                                         <td><input  type="checkbox" checked=""></td>
-										<td>财务</td>
-										<td>财务</td>
-										<td>
-											是
-										</td>
+                                        <td>财务</td>
+                                        <td>财务</td>
                                         <td>
-	                                    <a href="update-role.jsp"><i class="glyphicon glyphicon-edit  text-navy"></i></a>
-	                                    <a href="javascript:void(0)" class="btndel"><i class="glyphicon glyphicon-remove text-navy"></i></a>
+                                            是
+                                        </td>
+                                        <td>
+                                        <a href="update-role.jsp"><i class="glyphicon glyphicon-edit  text-navy"></i></a>
+                                        <a href="javascript:void(0)" class="btndel"><i class="glyphicon glyphicon-remove text-navy"></i></a>
                                         </td>
                                     </tr>
-                                    
                                 </tbody>
                             </table>
                         </div>
                         <div class="row">
-	                        	<div class="col-sm-5">
-	                        		<button class="btn btn-sm btn-primary" type="button"><i class="fa fa-check-square-o"></i> 全选</button>
-	                        		<button class="btn btn-sm btn-primary" type="button"><i class="fa fa-square-o"></i> 反选</button>
-	                        		<button class="btn btn-sm btn-primary" type="button"><i class="fa fa-times-circle-o"></i> 删除</button>
-	                        	</div>
-							<div class="col-sm-7 text-right">
-								<div class="btn-group">
-	                              
-								    <span>共有50页,当前是第3页</span>
-	                                <a href=''>首页</a>
-	                                <a href=''>上一页</a>
-	                                <a href=''>下一页</a>
-	                                <a href=''>尾页</a>
-	                            </div>
-							</div>
+                                <div class="col-sm-5">
+                                    <button class="btn btn-sm btn-primary" type="button"><i class="fa fa-check-square-o"></i> 全选</button>
+                                    <button class="btn btn-sm btn-primary" type="button"><i class="fa fa-square-o"></i> 反选</button>
+                                    <button class="btn btn-sm btn-primary" type="button"><i class="fa fa-times-circle-o"></i> 删除</button>
+                                </div>
+                            <div class="col-sm-7 text-right">
+                                <div class="btn-group">
+                                  
+                                    <span>共有50页,当前是第3页</span>
+                                    <a href=''>首页</a>
+                                    <a href=''>上一页</a>
+                                    <a href=''>下一页</a>
+                                    <a href=''>尾页</a>
+                                </div>
+                            </div>
                         </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-	    	</div>
-	
-	</div>       
+            </div>
+    
+    </div>       
     <script src="js/jquery.min.js?v=2.1.4"></script>
     <script src="js/bootstrap.min.js?v=3.3.6"></script>
      <script src="js/plugins/select/bootstrap-select.min.js"></script>
     <script src="js/plugins/sweetalert/sweetalert.min.js"></script>
 
    <script>
-	$(document).ready(function() {
-		// 设置按钮的样式
-		$('.selectpicker').selectpicker('setStyle', 'btn-white').selectpicker('setStyle', 'btn-sm');
-		
-		//点击删除
-		$('.btndel').click(function () {
-		    swal({
-		        title: "您确定要改修该角色状态吗？",
-		        text: "改修后将将，请谨慎操作！",
-		        type: "warning",
-		        showCancelButton: true,
-		        confirmButtonColor: "#DD6B55",
-		        confirmButtonText: "删除",
-		        closeOnConfirm: false
-		    }, function () {//此函数是点击删除执行的函数
-		    		//这里写ajax代码
-		    		// 以下是成功的提示框，请在ajax回调函数中执行
-			    swal("删除成功！", "您已经永久删除了这条信息。", "success");
-		    });
-		});
-		
-	});
+    $(document).ready(function() {
+        // 设置按钮的样式
+        $('.selectpicker').selectpicker('setStyle', 'btn-white').selectpicker('setStyle', 'btn-sm');
+        
+        //点击删除
+        $('.btndel').click(function () {
+            swal({
+                title: "您确定要改修该角色状态吗？",
+                text: "改修后将将，请谨慎操作！",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "删除",
+                closeOnConfirm: false
+            }, function () {//此函数是点击删除执行的函数
+                    //这里写ajax代码
+                    // 以下是成功的提示框，请在ajax回调函数中执行
+                swal("删除成功！", "您已经永久删除了这条信息。", "success");
+            });
+        });
+
+        loadRole();
+
+        /*$("#save-user-btn").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "/api/role/add",
+                dataType: "json",
+                data: {
+                    deptno:$("#deptno-input").val(),
+                    dname:$("#dname-input").val(),
+                    local:$("#local-input").val()
+                },
+                success: function (res) {
+                    if(res.code==0){
+                        alert("添加用户成功")
+                        $("#deptno-input").val("");
+                        $("#dname-input").val("");
+                        $("#local-input").val("");
+                        loadDept();
+                    }else{
+                        console.log("/api/dept/all ERROR     res:", res)
+                    }
+                },
+                error: function (err) {
+                    console.log("employee list request error!!!")
+                }
+            });
+            return false;
+        })*/
+
+        //-------------------------------------------------
+
+        function loadRole(){
+            $.ajax({
+                type: "GET",
+                contentType: "application/json;charset=UTF-8",
+                url: "/api/role/all",
+                dataType: "json",
+                data: {},
+                success: function (res) {
+                    if(res.code==0){
+                        $("#role-table-body").html("");
+                        res.data.forEach((val,idx)=>{
+                            $("#role-table-body").append(createElem(val,idx));
+                        })
+                    }else{
+                        console.log("role list request fail. res:", res)
+                    }
+                },
+                error: function (err) {
+                    console.log("role list request error!!!")
+                }
+            });
+        }
+
+        function createElem(itm,idx){
+            let $e = $('<tr data-roleid="'+itm.roleid+'">\n' +
+                '    <td><input  type="checkbox" checked=""></td>\n' +
+                '    <td>'+itm.rolename+'</td>\n' +
+                '    <td>'+itm.roledis+'</td>\n' +
+                '    <td>\n' +
+                '        '+(itm.status==1?'是':'否')+'\n' +
+                '    </td>\n' +
+                '    <td>\n' +
+                '    <a href="update-role.jsp"><i class="glyphicon glyphicon-edit  text-navy"></i></a>\n' +
+                '    <a href="javascript:removeRole('+itm.roleid+')" class="btndel"><i class="glyphicon glyphicon-remove text-navy"></i></a>\n' +
+                '    </td>\n' +
+                '</tr>');
+            return $e
+        }
+
+    });
+
+    function removeRole(roleid) {
+        $.ajax({
+            type: "POST",
+            url: "/api/role/delete",
+            dataType: "json",
+            data: {
+                id:roleid
+            },
+            success: function (res) {
+                if(res.code==0){
+                    alert("角色删除成功");
+                    $("#role-table-body [data-roleid="+roleid+"]").remove();
+                }else{
+                    alert("部门删除失败");
+                }
+            },
+            error: function (err) {
+                console.log("role delete error!!!")
+            }
+        });
+    }
     </script>
     
 </body>
